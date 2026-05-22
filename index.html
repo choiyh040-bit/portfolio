@@ -60,7 +60,7 @@
     <!-- 소개 텍스트 영역 -->
     <div class="hero-text">
       <!-- ✏️ [수정] 이름, 직함, 소개 문구를 바꾸세요 -->
-      <p class="hero-sub">안녕하세요 👋</p>
+      <p class="hero-sub">안녕하세요</p>
       <h1 class="hero-title">저는 <span class="highlight">최용환</span>입니다</h1>
       <p class="hero-desc">
         디자인 전문성에 데이터와 기술을 더하여<br/>
@@ -310,22 +310,25 @@
         //   5. 상단 'Activate' 토글 ON
         //   6. 'Production URL' 복사 → 아래 붙여넣기
         // ════════════════════════════════════════════════════
-        url: 'https://본인주소.app.n8n.cloud/webhook/chat'
+        url: 'https://choiyh4383.app.n8n.cloud/webhook/chat'
       },
 
       branding: {
+        // 챗봇 로고 이미지 (내 프로필 사진으로 연결)
+        logo: 'https://choiyh040-bit.github.io/portfolio/images/profile.jpg',
+        
         // 챗봇 이름 (채팅창 상단에 표시)
         name: 'Portfolio AI',
 
-        // 처음 채팅창을 열었을 때 나타나는 환영 메시지
+        // 처음 채팅창을 열었을 때 나오는 환영 메시지
         welcomeText: '안녕하세요! 포트폴리오에 대해 궁금한 점을 물어보세요 😊',
 
-        // 답변이 생성되는 동안 표시되는 문구
+        // 답변을 생성하는 동안 표시되는 문구
         responseTimeText: '잠시 후 답변드릴게요...'
       },
 
       style: {
-        // 챗봇 버튼 색상 (포트폴리오 테마와 맞춰줬습니다)
+        // 챗봇 버튼 색상 (포트폴리오 테마에 맞춰줬습니다)
         primaryColor: '#5c6bc0',
 
         // 버튼 위치: 'right' (오른쪽) 또는 'left' (왼쪽)
@@ -336,11 +339,17 @@
 
   <!--
     chat-widget.js: jsDelivr CDN에서 불러오는 챗봇 UI 라이브러리
-    - 위에서 설정한 ChatWidgetConfig를 읽어 채팅 버튼/창을 자동으로 만들어줍니다.
+    - 위에 설정한 ChatWidgetConfig를 읽어 채팅 버튼/창을 자동으로 만들어줍니다.
     - 별도로 설치하거나 다운로드할 필요 없이 이 한 줄로 사용 가능합니다.
-    - 반드시 </body> 바로 위에 위치해야 합니다!
+    - 반드시 </body> 바로 위에 위치해야 합니다.
   -->
   <script src="https://cdn.jsdelivr.net/gh/juansebsol/n8n-chatbot-template@latest/chat-widget.js"></script>
 
+  <!-- 챗봇 위젯이 불러와질 때 맨 밑으로 스크롤되는 현상 방지 -->
+  <script>
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 500);
+  </script>
 </body>
 </html>
