@@ -1,0 +1,107 @@
+/* ============================================================
+   style.css - 포트폴리오 기본 스타일
+   
+   [초보자를 위한 CSS 설명]
+   - CSS는 HTML 요소의 색상, 크기, 위치 등 "보이는 모양"을 담당합니다.
+   - /* 이 안에 있는 내용 */ 은 주석으로, 브라우저가 무시합니다.
+   ============================================================ */
+
+/* ----------------------------------------------------------
+   :root - 사이트 전체에서 쓸 색상/크기 변수를 정의합니다.
+   var(--변수명) 으로 어디서든 재사용할 수 있습니다.
+   나중에 색상을 바꿀 때 여기서만 수정하면 됩니다!
+   ---------------------------------------------------------- */
+:root {
+  --primary: #5c6bc0;       /* 메인 포인트 색상 (인디고) */
+  --bg: #0f0f1a;            /* 페이지 배경색 (어두운 네이비) */
+  --surface: #1a1a2e;       /* 카드/섹션 배경색 */
+  --text: #e0e0e0;          /* 기본 글자색 */
+  --text-muted: #9090a0;    /* 흐린 글자색 (부제목 등) */
+  --radius: 12px;           /* 모서리 둥글기 */
+}
+
+/* ----------------------------------------------------------
+   * (전체 선택자): 모든 요소에 공통 스타일 적용
+   box-sizing: border-box → 패딩을 포함한 크기 계산 (표준 방식)
+   ---------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body: 페이지 전체 기본 스타일 */
+body {
+  font-family: 'Noto Sans KR', sans-serif;  /* Google에서 불러온 폰트 */
+  background-color: var(--bg);              /* 배경색 적용 */
+  color: var(--text);                       /* 기본 글자색 */
+  line-height: 1.7;                         /* 줄 간격 (1 = 폰트 크기와 동일) */
+  min-height: 100vh;                        /* 최소 높이 = 화면 전체 */
+}
+
+/* ----------------------------------------------------------
+   header: 상단 타이틀 영역
+   ---------------------------------------------------------- */
+header {
+  text-align: center;
+  padding: 80px 20px 60px;
+  background: linear-gradient(135deg, var(--primary) 0%, #3949ab 100%);
+  /* linear-gradient: 두 색상 사이를 135도 방향으로 자연스럽게 채웁니다 */
+}
+
+header h1 {
+  font-size: 2.8rem;  /* rem = 기본 폰트 크기의 배수 (1rem = 16px) */
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);  /* rgba: 투명도(0~1)를 조절한 색 */
+  margin-top: 12px;
+}
+
+/* ----------------------------------------------------------
+   main: 본문 콘텐츠 영역
+   max-width: 내용이 너무 넓어지지 않도록 최대 너비 제한
+   margin: 0 auto: 좌우 여백을 자동으로 맞춰 가운데 정렬
+   ---------------------------------------------------------- */
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+/* section: 각 섹션(소개, 프로젝트 등) */
+section {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 40px;
+  margin-bottom: 32px;
+  /* box-shadow: 그림자 효과 (x y 흐림 퍼짐 색상) */
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  /* border-left: 왼쪽 강조선 */
+  border-left: 4px solid var(--primary);
+  /* transition: hover 시 부드러운 전환 효과 */
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* section:hover - 마우스를 올렸을 때 살짝 떠오르는 효과 */
+section:hover {
+  transform: translateY(-4px);             /* 위로 4px 이동 */
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(92, 107, 192, 0.3);
+}
+
+section p {
+  color: var(--text-muted);
+  font-size: 0.97rem;
+}
