@@ -339,5 +339,20 @@
     - 반드시 </body> 바로 위에 위치해야 합니다.
   -->
   <script src="https://cdn.jsdelivr.net/gh/juansebsol/n8n-chatbot-template@latest/chat-widget.js"></script>
+
+  <!-- 부드러운 스크롤 및 주소창에 #contact 등 해시 안 남게 하는 스크립트 -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault(); // 기본 이동(주소창에 # 붙는 것) 방지
+        const targetId = this.getAttribute('href').substring(1);
+        if(targetId === "") return;
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
 </body>
 </html>
