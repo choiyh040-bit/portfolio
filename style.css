@@ -316,4 +316,18 @@ img {
   .content-wrapper {
     aspect-ratio: auto; /* 폰에서는 16:9 해제 */
   }
+  
+  /* 모바일에서 이미지 크기 최적화 (인라인 스타일 오버라이드) */
+  #imageModal #modalImg {
+    width: 100% !important;
+    max-width: 95vw !important;
+  }
+  #imageModal #galleryWrapper {
+    width: 95% !important;
+    max-width: 95vw !important;
+  }
+  #imageModal #modalIframe {
+    width: 100% !important;
+    max-width: 95vw !important;
+  }
 }
