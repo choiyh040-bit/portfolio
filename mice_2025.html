@@ -24,6 +24,7 @@
       margin-bottom: 50px;
       padding-bottom: 15px;
       border-bottom: 1px solid #eaeaea;
+      text-align: center;
     }
     .section {
       width: 60%;
@@ -103,7 +104,8 @@
       const container = document.getElementById(containerId);
       for (let i = 1; i <= count; i++) {
         const img = document.createElement('img');
-        img.src = `images/${prefix}_${i}.jpg`;
+        // 이미지 파일 캐싱 방지를 위해 버전 파라미터 추가
+        img.src = `images/${prefix}_${i}.jpg?v=2`;
         img.alt = `${prefix} 이미지 ${i}`;
         // 이미지 로딩 실패 시 숨김 처리 (파일 개수가 다를 경우 대비)
         img.onerror = function() { this.style.display = 'none'; };

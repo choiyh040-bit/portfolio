@@ -184,7 +184,7 @@
           </div>
           <!-- Work 10 -->
           <div class="work-item">
-            <a href="mice_2025.html" class="iframe-trigger">
+            <a href="mice_2025.html?v=2" class="iframe-trigger">
               <img src="images/mice_2025_c.jpg" alt="2025 MICE 글로벌전문가 발대식" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+10'" />
             </a>
             <div class="work-info">
@@ -375,7 +375,9 @@
         galleryWrapper.style.display = "none";
         const iframe = document.getElementById("modalIframe");
         iframe.style.display = "block";
-        iframe.src = this.href;
+        // iframe 캐시 완전 무효화를 위해 타임스탬프 추가
+        const baseUrl = this.href.split('?')[0];
+        iframe.src = baseUrl + '?t=' + new Date().getTime();
       });
     });
 
