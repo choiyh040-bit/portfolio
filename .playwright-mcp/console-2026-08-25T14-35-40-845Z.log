@@ -1,0 +1,4 @@
+[    2666ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/2sWE29MHO92mLUPB04HHm/benefits/by-products/13610691209?categoryId=50000807:0
+[    2670ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/2sWE29MHO92mLUPB04HHm/benefits/by-products/13610691209, method: get, params: Object} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260825170738/js/9653.61ec05e2.js:0
+[    3770ms] [WARNING] "circular" and "bound" option cannot be used together, ignoring bound. @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260825170738/js/9653.61ec05e2.js:0
+[    5258ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://nlog.commerce.naver.com/n:0

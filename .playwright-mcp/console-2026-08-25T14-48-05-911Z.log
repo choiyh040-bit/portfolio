@@ -1,0 +1,5 @@
+[     921ms] [LOG] {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: } @ https://static.wconcept.co.kr/web/js/wconcept.desktop.min.js?v=b7fc2f5c714a4eca91c1e0d19eb9f77d:1
+[    1455ms] [LOG] sign: 98209a97b71053d900ea54dbfe505b274f74edf37dc298722ef0656303615f58 @ https://static.wconcept.co.kr/web/js/wconcept.desktop.min.js?v=b7fc2f5c714a4eca91c1e0d19eb9f77d:1
+[    1593ms] [LOG] [Airbridge] Event pushed: airbridge.ecommerce.product.viewed {label: baro_0, action: 여성 > 의류 > 아우터, value: 678300, semanticAttributes: Object, customAttributes: Object} @ https://static.wconcept.co.kr/web/js/wconcept.desktop.marketing.min.js?v=b7fc2f5c714a4eca91c1e0d19eb9f77d:0
+[    1674ms] [LOG] {result: SUCCESS, data: Object, errorCode: 0, message: null} @ https://static.wconcept.co.kr/web/js/wconcept.desktop.myheart.msa.min.js?v=b7fc2f5c714a4eca91c1e0d19eb9f77d:0
+[    1734ms] [LOG] {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: } @ https://static.wconcept.co.kr/web/js/wconcept.desktop.min.js?v=b7fc2f5c714a4eca91c1e0d19eb9f77d:1

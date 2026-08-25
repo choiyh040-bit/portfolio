@@ -1,59 +1,34 @@
-/* ============================================================
-   style.css - 포트폴리오 전체 스타일
-   
-   구조:
-   1. 변수 (색상, 크기 토큰)
-   2. 리셋 & 기본 스타일
-   3. 네비게이션
-   4. Hero 섹션
-   5. 공통 섹션 스타일
-   6. About 섹션
-   7. Projects 섹션 (카드)
-   8. Skills 섹션
-   9. Contact 섹션
-   10. Footer
-   11. 스크롤 애니메이션
-   12. 반응형 (모바일)
-   ============================================================ */
+@charset "UTF-8";
 
+/* ============================================================
+   style.css - 리뉴얼 포트폴리오 스타일 (plankitstudio 모티브)
+   ============================================================ */
 
 /* ── 1. 변수 정의 ─────────────────────────────────────────── */
 :root {
-  --primary:      #5c6bc0;   /* 포인트 색 (인디고) */
-  --primary-dark: #3949ab;   /* 포인트 어두운 버전 */
-  --bg:           #0f0f1a;   /* 페이지 배경 */
-  --surface:      #1a1a2e;   /* 카드 배경 */
-  --surface2:     #16213e;   /* 어두운 섹션 배경 */
-  --text:         #e0e0f0;   /* 기본 글자색 */
-  --muted:        #8888aa;   /* 흐린 글자 */
-  --radius:       14px;      /* 모서리 둥글기 */
-  --shadow:       0 8px 32px rgba(0,0,0,0.4);
+  --bg: #FAFAFA;
+  --main-text: #333333;
+  --sub-text: #999999;
+  --light-gray: #E6E6E6;
+  --nav-height: 70px;
 }
 
-
-/* ── 2. 리셋 & 기본 스타일 ────────────────────────────────── */
+/* ── 2. 기본 리셋 ─────────────────────────────────────────── */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* 모서리 라운드 완전히 제거 */
+  border-radius: 0 !important; 
 }
 
-html {
-  /* scroll-behavior: 앵커(#about 등) 클릭 시 부드럽게 스크롤 */
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Noto Sans KR', sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  line-height: 1.75;
-  overflow-x: hidden; /* 가로 스크롤 방지 */
-}
-
-img {
-  display: block;
-  max-width: 100%;
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Pretendard', sans-serif;
+  background-color: var(--bg);
+  color: var(--main-text);
+  overflow: hidden; /* 전체 페이지 스크롤 차단, scroll-container 안에서만 스크롤되도록 */
 }
 
 a {
@@ -61,476 +36,284 @@ a {
   color: inherit;
 }
 
+ul {
+  list-style: none;
+}
 
-/* ── 3. 네비게이션 바 ──────────────────────────────────────── */
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* ── 3. 네비게이션 ────────────────────────────────────────── */
 #navbar {
-  position: fixed;          /* 스크롤해도 상단 고정 */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100;             /* 다른 요소 위에 표시 */
-  background: rgba(15, 15, 26, 0.88);
-  backdrop-filter: blur(12px); /* 유리 효과 */
-  border-bottom: 1px solid rgba(92, 107, 192, 0.2);
+  height: var(--nav-height);
+  z-index: 1000;
+  background-color: var(--bg);
+  backdrop-filter: blur(5px);
 }
 
 .nav-inner {
-  max-width: 1100px;
+  max-width: 1400px;
+  height: 100%;
   margin: 0 auto;
-  padding: 0 24px;
-  height: 64px;
+  padding: 0 40px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-logo {
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 1.2rem;
-  color: var(--primary);
-  letter-spacing: 1px;
+  letter-spacing: -0.5px;
 }
 
 .nav-links {
-  list-style: none;
   display: flex;
-  gap: 36px;
+  gap: 40px;
 }
 
 .nav-links a {
-  font-size: 0.9rem;
-  color: var(--muted);
-  transition: color 0.2s;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--sub-text);
+  transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: var(--primary);
+  color: var(--main-text);
 }
 
 
-/* ── 4. Hero 섹션 ─────────────────────────────────────────── */
-.hero {
+/* ── 4. 스크롤 스냅 (Full Page) ────────────────────────────── */
+.scroll-container {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  /* 스크롤바 숨기기 */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.section-slide {
+  width: 100vw;
   min-height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 36px;
-  padding: 100px 24px 60px;
-  text-align: center;
-
-  /* 배경 그라디언트 */
-  background:
-    radial-gradient(ellipse at 20% 50%, rgba(92, 107, 192, 0.15) 0%, transparent 60%),
-    radial-gradient(ellipse at 80% 20%, rgba(57, 73, 171, 0.1) 0%, transparent 50%),
-    var(--bg);
+  padding-top: var(--nav-height); /* 네비게이션 공간만큼 패딩 */
 }
 
-/* 프로필 이미지 원형 테두리 */
-.hero-img-wrap {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  border: 4px solid var(--primary);
-  padding: 4px;
-  background: var(--surface);
-  box-shadow: 0 0 40px rgba(92, 107, 192, 0.4);
+/* 배경 교차 색상 (옵션) */
+.bg-primary { background-color: var(--bg); }
+.bg-secondary { background-color: var(--bg); }
 
-  /* 살짝 떠 있는 애니메이션 */
-  animation: float 4s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50%       { transform: translateY(-10px); }
-}
-
-.hero-img {
+.content-wrapper {
   width: 100%;
+  max-width: 1400px;
+  padding: 0 40px 50px 40px;
+  min-height: calc(100vh - var(--nav-height));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* ── 5. 개별 섹션 스타일 ───────────────────────────────────── */
+/* COVER */
+#cover .title {
+  font-size: clamp(3.6rem, 7.2vw, 7.2rem);
+  font-weight: 800;
+  line-height: 1.0;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+#cover .subtitle {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: var(--sub-text);
+  font-weight: 400;
+}
+
+/* ABOUT */
+.about-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
-  border-radius: 50%;
-  object-fit: cover; /* 이미지를 원 안에 꽉 채우기 */
 }
 
-.hero-text {
-  max-width: 600px;
+.about-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 800px;
 }
-
-.hero-sub {
-  font-size: 1.1rem;
-  color: var(--muted);
+.about-text-box h2 {
+  font-size: clamp(3rem, 6vw, 6rem);
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.about-text-box p {
+  font-size: calc(1.1rem + 1.5pt);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: var(--main-text);
+}
+.contact-info {
+  margin-top: 20px;
+  border-top: 2px solid var(--main-text);
+  padding-top: 20px;
+}
+.contact-info li {
+  font-size: 1rem;
+  color: var(--sub-text);
   margin-bottom: 8px;
 }
-
-.hero-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(2rem, 5vw, 3.2rem); /* clamp: 최소~최대 사이에서 유연한 크기 */
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 16px;
-}
-
-/* highlight: 강조 텍스트 색상 */
-.highlight {
-  color: var(--primary);
-  position: relative;
-}
-
-.hero-desc {
-  font-size: 1.05rem;
-  color: var(--muted);
-  margin-bottom: 32px;
-}
-
-/* 버튼 스타일 */
-.hero-btns {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.btn {
-  padding: 13px 32px;
-  border-radius: 50px;   /* 완전히 둥근 버튼 */
-  font-size: 0.95rem;
-  font-weight: 500;
+.resume-link {
+  font-size: calc(1.1rem + 1.5pt);
+  color: var(--main-text);
+  text-decoration: none;
+  transition: color 0.3s ease;
   cursor: pointer;
-  transition: all 0.25s ease;
   display: inline-block;
 }
-
-.btn-primary {
-  background: var(--primary);
-  color: white;
-  box-shadow: 0 4px 20px rgba(92, 107, 192, 0.4);
+.resume-link:hover {
+  color: var(--sub-text);
 }
 
-.btn-primary:hover {
-  background: var(--primary-dark);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(92, 107, 192, 0.5);
-}
-
-.btn-outline {
-  border: 2px solid var(--primary);
-  color: var(--primary);
-}
-
-.btn-outline:hover {
-  background: var(--primary);
-  color: white;
-  transform: translateY(-2px);
-}
-
-
-/* ── 5. 공통 섹션 스타일 ───────────────────────────────────── */
-.section {
-  padding: 100px 24px;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-/* section-dark: 배경이 어두운 섹션은 max-width 해제 후 별도 처리 */
-.section-dark {
-  background: var(--surface2);
-  max-width: none;    /* 전체 너비 */
-  padding: 100px 24px;
-}
-
-.section-dark > * {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 2.2rem;
+/* WORKS */
+#works h2 {
+  font-size: 3rem;
   font-weight: 700;
-  text-align: center;
-  margin-bottom: 12px;
-
-  /* 제목 아래 포인트 선 */
-  position: relative;
-  display: inline-block;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-bottom: 40px;
 }
-
-.section-title::after {
-  content: '';
-  display: block;
-  width: 50px;
-  height: 4px;
-  background: var(--primary);
-  border-radius: 2px;
-  margin: 10px auto 0;
-}
-
-.section-sub {
-  text-align: center;
-  color: var(--muted);
-  margin-bottom: 60px;
-  font-size: 1rem;
-}
-
-
-/* ── 6. About 섹션 ────────────────────────────────────────── */
-.about-grid {
+.works-grid {
   display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 60px;
-  align-items: center;
-  margin-top: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
-
-.about-img-wrap {
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  border: 2px solid rgba(92, 107, 192, 0.3);
-}
-
-.about-img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  transition: transform 0.4s ease;
-}
-
-.about-img:hover {
-  transform: scale(1.04);
-}
-
-.about-text h3 {
-  font-size: 1.4rem;
-  font-weight: 700;
-  margin-bottom: 16px;
-  color: var(--primary);
-}
-
-.about-text p {
-  color: var(--muted);
-  margin-bottom: 12px;
-}
-
-.about-info {
-  list-style: none;
-  margin-top: 24px;
+.work-item {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  background: var(--bg);
 }
-
-.about-info li {
-  font-size: 0.95rem;
-}
-
-.info-label {
-  font-weight: 700;
-  margin-right: 10px;
-  color: var(--text);
-}
-
-
-/* ── 7. Projects 섹션 (카드) ──────────────────────────────── */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 28px;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.project-card {
-  background: var(--surface);
-  border-radius: var(--radius);
+.work-item a {
+  display: block;
   overflow: hidden;
-  box-shadow: var(--shadow);
-  border: 1px solid rgba(92, 107, 192, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--light-gray);
 }
-
-.project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-}
-
-.card-img-wrap {
-  overflow: hidden;
-  height: 200px;
-}
-
-.card-img {
+.work-item img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 3/4; /* 내부 이미지 3:4 픽스 */
   object-fit: cover;
+  object-position: top;
   transition: transform 0.4s ease;
 }
-
-.project-card:hover .card-img {
-  transform: scale(1.08);
+.fit-contain {
+  object-fit: contain !important;
+  background-color: var(--bg) !important;
 }
-
-.card-body {
-  padding: 24px;
+.work-item:hover img {
+  transform: scale(1.05);
 }
-
-/* 태그 배지 (예: Python, n8n) */
-.card-tag {
-  display: inline-block;
-  background: rgba(92, 107, 192, 0.15);
-  color: var(--primary);
-  font-size: 0.75rem;
+.zoomable {
+  cursor: zoom-in;
+}
+.work-info {
+  padding: 20px 0 20px 20px;
+}
+.work-info h3 {
+  font-size: 1.2rem;
   font-weight: 600;
-  padding: 3px 10px;
-  border-radius: 50px;
-  margin-right: 6px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
 }
-
-.card-title {
-  font-size: 1.15rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.card-desc {
+.work-info p {
   font-size: 0.9rem;
-  color: var(--muted);
-  margin-bottom: 18px;
+  color: var(--sub-text);
+  transition: color 0.3s ease;
 }
-
-.card-link {
-  color: var(--primary);
-  font-size: 0.9rem;
-  font-weight: 600;
-  transition: letter-spacing 0.2s;
-}
-
-.card-link:hover {
-  letter-spacing: 0.5px;
+.work-item:hover .work-info h3,
+.work-item:hover .work-info p {
+  color: var(--sub-text);
 }
 
 
-/* ── 8. Skills 섹션 ───────────────────────────────────────── */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 28px;
-  margin-top: 60px;
-}
-
-.skill-group {
-  background: var(--surface);
-  border-radius: var(--radius);
-  padding: 28px;
-  border: 1px solid rgba(92, 107, 192, 0.2);
-  transition: transform 0.25s ease;
-}
-
-.skill-group:hover {
-  transform: translateY(-4px);
-}
-
-.skill-group-title {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 16px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(92, 107, 192, 0.2);
-}
-
-.skill-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.badge {
-  background: rgba(92, 107, 192, 0.12);
-  color: var(--text);
-  border: 1px solid rgba(92, 107, 192, 0.3);
-  padding: 6px 14px;
-  border-radius: 50px;
-  font-size: 0.85rem;
-  transition: all 0.2s;
-}
-
-.badge:hover {
-  background: var(--primary);
-  border-color: var(--primary);
-  color: white;
-}
-
-
-/* ── 9. Contact 섹션 ──────────────────────────────────────── */
-.contact-links {
-  display: flex;
-  gap: 20px;
+/* ── 6. 이미지 모달 ───────────────────────────────────────── */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 9999; 
+  left: 0;
+  top: 0;
+  width: 100vw; 
+  height: 100vh; 
+  background-color: rgba(250, 250, 250, 0.95); /* 밝은 배경 딤 */
+  overflow-y: auto; /* 세로 스크롤 허용 */
+  padding: 50px 0; /* 위아래 여백 */
+  align-items: flex-start; /* 이미지가 길 경우 위에서부터 시작 */
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 1100px;
-  margin: 0 auto;
 }
 
-.contact-btn {
-  display: inline-block;
-  padding: 14px 36px;
-  border-radius: 50px;
-  font-size: 1rem;
-  font-weight: 600;
-  background: var(--primary);
-  color: white;
-  box-shadow: 0 4px 20px rgba(92, 107, 192, 0.35);
-  transition: all 0.25s ease;
+.modal-content {
+  max-width: 90vw;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+  animation: zoomIn 0.3s ease;
+  margin: auto; /* 상하좌우 중앙 정렬 보조 */
 }
 
-.contact-btn:hover {
-  background: var(--primary-dark);
-  transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(92, 107, 192, 0.45);
+@keyframes zoomIn {
+  from {transform: scale(0.9); opacity: 0;}
+  to {transform: scale(1); opacity: 1;}
 }
 
-
-/* ── 10. Footer ───────────────────────────────────────────── */
-footer {
-  text-align: center;
-  padding: 32px 24px;
-  color: var(--muted);
-  font-size: 0.875rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+.close-modal {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  color: var(--main-text);
+  font-size: 40px;
+  font-weight: 300;
+  cursor: pointer;
 }
 
 
-/* ── 11. 반응형 (모바일 대응) ──────────────────────────────── */
-/* @media: 화면 너비가 768px 이하일 때만 적용되는 스타일 */
+/* ── 7. 반응형 ────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .about-layout {
+    flex-direction: column;
+  }
+  .works-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media (max-width: 768px) {
-
-  /* 네비 메뉴 숨기기 (모바일에서는 공간이 좁아서) */
+  .works-grid {
+    grid-template-columns: 1fr;
+    overflow-y: auto;
+  }
   .nav-links {
     gap: 20px;
   }
-
-  .nav-links a {
-    font-size: 0.8rem;
-  }
-
-  /* About 섹션: 2열 → 1열 */
-  .about-grid {
-    grid-template-columns: 1fr;
-    gap: 32px;
-  }
-
-  /* 프로젝트 카드: 자동으로 1열로 */
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  /* Skills: 1열 */
-  .skills-grid {
-    grid-template-columns: 1fr;
+  .content-wrapper {
+    aspect-ratio: auto; /* 폰에서는 16:9 해제 */
   }
 }

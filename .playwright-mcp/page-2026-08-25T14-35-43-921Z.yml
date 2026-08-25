@@ -1,0 +1,430 @@
+- generic [ref=e3]:
+  - link "본문으로 바로가기" [ref=e4] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - link "네이버" [ref=e12] [cursor=pointer]:
+              - /url: https://www.naver.com
+            - link "네이버플러스 스토어 홈" [ref=e16] [cursor=pointer]:
+              - /url: https://shopping.naver.com/ns/home?
+          - strong [ref=e22]: 사용자 링크
+        - generic [ref=e23]:
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /puryn/profile
+            - paragraph [ref=e27]: 여성의류 전문 쇼핑몰, 재킷, 티셔츠, 블라우스, 스커트, 팬츠 등 판매
+          - generic [ref=e28]:
+            - button "관심고객수 13" [ref=e29] [cursor=pointer]
+            - button "도움말" [ref=e31] [cursor=pointer]
+          - button "검색어를 입력해주세요" [ref=e36] [cursor=pointer]
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - button "알림받기" [ref=e45] [cursor=pointer]
+          - heading [level=1] [ref=e51]:
+            - link "퓨린이 PURYN" [ref=e55] [cursor=pointer]:
+              - /url: /puryn
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - text: 오늘
+              - emphasis [ref=e64]: "14"
+            - generic [ref=e65]:
+              - text: 전체
+              - emphasis [ref=e66]: 5,445
+        - generic [ref=e71]:
+          - list [ref=e72]:
+            - listitem [ref=e73]:
+              - link "베스트" [ref=e74] [cursor=pointer]:
+                - /url: /puryn/best?cp=1
+            - listitem [ref=e75]:
+              - link "전체상품" [ref=e76] [cursor=pointer]:
+                - /url: /puryn/category/a95354784662486196711855fb1ac2a2?cp=1
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - link "공지사항" [ref=e79] [cursor=pointer]:
+                - /url: /puryn/notice?cp=1
+            - listitem [ref=e80]:
+              - link "쇼핑스토리" [ref=e81] [cursor=pointer]:
+                - /url: /puryn/shoppingstory/list?cp=1
+            - listitem [ref=e82]:
+              - link "리뷰이벤트" [ref=e83] [cursor=pointer]:
+                - /url: /puryn/review-event/list?cp=1
+            - listitem [ref=e84]:
+              - link "묻고 답하기" [ref=e85] [cursor=pointer]:
+                - /url: /puryn/qna?cp=1
+            - listitem [ref=e86]:
+              - link "판매자 정보" [ref=e87] [cursor=pointer]:
+                - /url: /puryn/profile?cp=1
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - button "네이버플러스 스토어 알림 받고 혜택 받아보세요! 알림받기" [ref=e92] [cursor=pointer]:
+          - generic [ref=e98]: 네이버플러스 스토어
+          - generic [ref=e99]: 알림 받고 혜택 받아보세요!
+          - generic [ref=e100]: 알림받기
+        - generic [ref=e104]:
+          - generic [ref=e106]:
+            - tabpanel [ref=e107]:
+              - generic [ref=e109]:
+                - generic "상품 이미지" [ref=e111]: 대표이미지
+                - generic "상품 이미지" [ref=e115]: 대표이미지
+                - generic "상품 이미지" [ref=e119]: 대표이미지
+              - generic:
+                - button "이전" [ref=e123] [cursor=pointer]
+                - button "다음" [ref=e127] [cursor=pointer]
+              - generic [ref=e131]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]: 현재
+                  - text: "1"
+                  - generic [ref=e134]: 상품 이미지
+                - generic [ref=e135]:
+                  - text: /
+                  - generic [ref=e136]: 전체
+                  - text: "4"
+                  - generic [ref=e137]: 상품 이미지
+            - generic [ref=e138]:
+              - button "이전" [ref=e139] [cursor=pointer]
+              - list [ref=e143]:
+                - listitem [ref=e144]:
+                  - button [ref=e145] [cursor=pointer]:
+                    - img "추가이미지0" [ref=e147]
+                - listitem [ref=e148]:
+                  - button [ref=e149] [cursor=pointer]:
+                    - img "추가이미지1" [ref=e151]
+                - listitem [ref=e152]:
+                  - button [ref=e153] [cursor=pointer]:
+                    - img "추가이미지2" [ref=e155]
+                - listitem [ref=e156]:
+                  - button "동영상 추가이미지3" [ref=e157] [cursor=pointer]:
+                    - generic [ref=e161]: 동영상
+                    - img "추가이미지3" [ref=e162]
+              - button "다음" [ref=e163] [cursor=pointer]
+          - generic [ref=e168]:
+            - heading "여름 시원한 휴가룩 민소매 러블리 원피스 플레어 스커트 스트라이프 원피스 퓨린이" [level=3] [ref=e170]
+            - generic [ref=e172]:
+              - generic [ref=e173]: "0.0"
+              - generic [ref=e177]: 0건 리뷰
+            - generic [ref=e179]:
+              - generic [ref=e181]:
+                - generic [ref=e182]:
+                  - generic [ref=e183]:
+                    - button "할인 전 가격 54,000원" [ref=e184] [cursor=pointer]:
+                      - generic [ref=e185]: 할인 전 가격
+                      - text: 54,000원
+                    - button "도움말" [ref=e187] [cursor=pointer]
+                  - generic [ref=e192]:
+                    - generic [ref=e193]:
+                      - text: 27%
+                      - generic [ref=e194]: 할인
+                    - generic [ref=e195]:
+                      - generic [ref=e196]: 상품 가격
+                      - text: 39,000원
+                - generic [ref=e197]: 무료배송
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - generic [ref=e204]: 적립
+                  - generic [ref=e205]:
+                    - generic [ref=e206]:
+                      - text: 최대 적립 포인트 4,830원
+                      - button "자세히 보기" [ref=e207] [cursor=pointer]
+                    - generic [ref=e211]:
+                      - link "네이버 플러스 멤버십 최대 5% 추가 적립 도움말 1,560원 멤버십 시작하고 최대 적립 받기" [ref=e212] [cursor=pointer]:
+                        - /url: "#"
+                      - generic [ref=e213]:
+                        - generic [ref=e214]:
+                          - generic [ref=e231]: 네이버 플러스 멤버십
+                          - generic [ref=e232]:
+                            - button "최대 5% 추가 적립" [ref=e233] [cursor=pointer]
+                            - button "도움말" [ref=e235] [cursor=pointer]
+                        - generic [ref=e240]: 1,560원
+                      - strong [ref=e242]: 멤버십 시작하고 최대 적립 받기
+                - generic [ref=e245]:
+                  - generic [ref=e246]: 혜택
+                  - generic [ref=e247]:
+                    - link "라인프렌즈 카드 최대 780원 추가 적립(2%)" [ref=e249] [cursor=pointer]:
+                      - /url: https://mkt.naver.com/event/npay-shinhanassociated
+                    - button "최대 6개월 무이자 할부 • 60개월 특별금리" [ref=e253] [cursor=pointer]
+              - generic [ref=e256]:
+                - generic [ref=e257]: 배송
+                - generic [ref=e258]:
+                  - generic [ref=e259]: 무료배송
+                  - button "자세히 보기" [ref=e261] [cursor=pointer]
+              - generic [ref=e264]:
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - paragraph [ref=e268]: 색상 선택
+                    - radiogroup [ref=e269]:
+                      - radiogroup [ref=e272]:
+                        - list [ref=e273]:
+                          - listitem [ref=e274]:
+                            - radio "아이보리" [ref=e275] [cursor=pointer]
+                          - listitem [ref=e277]:
+                            - radio "네이비" [ref=e278] [cursor=pointer]
+                  - generic [ref=e280]:
+                    - paragraph [ref=e281]:
+                      - generic [ref=e282]: 사이즈 선택
+                    - radiogroup "사이즈 선택" [ref=e283]:
+                      - radiogroup [ref=e286]:
+                        - list [ref=e287]:
+                          - listitem [ref=e288]:
+                            - radio "Free" [ref=e289] [cursor=pointer]
+                - generic [ref=e290]:
+                  - button "구매하기" [ref=e292] [cursor=pointer]
+                  - generic [ref=e295]:
+                    - button "찜 하기" [ref=e296] [cursor=pointer]:
+                      - text: 찜
+                      - generic [ref=e299]: 하기
+                    - button "장바구니" [ref=e300] [cursor=pointer]
+      - generic [ref=e304]:
+        - generic [ref=e308]:
+          - strong [ref=e310]: 다른 구성 상품 골라 담기
+          - list [ref=e316]:
+            - listitem [ref=e317]
+            - listitem [ref=e334]
+            - listitem [ref=e351]
+            - listitem [ref=e368]
+            - listitem [ref=e385]
+            - listitem [ref=e402]
+        - generic [ref=e419]:
+          - generic [ref=e420]:
+            - list [ref=e422]:
+              - button "상세정보" [ref=e423] [cursor=pointer]
+              - button "리뷰" [ref=e424] [cursor=pointer]
+              - button "Q&A" [ref=e425] [cursor=pointer]
+              - button "판매자정보" [ref=e426] [cursor=pointer]
+              - button "추천" [ref=e427] [cursor=pointer]
+            - generic [ref=e429]:
+              - generic [ref=e431]:
+                - generic [ref=e438]:
+                  - text: 판매자가 타 사이트 안내 및 현금 결제, 개인정보 유도 시 결제/입력하지 마시고 즉시
+                  - link "고객센터로 신고" [ref=e439] [cursor=pointer]:
+                    - /url: https://help.pay.naver.com/faq/content.help?faqId=14188
+                  - text: 해주세요.
+                - generic [ref=e440]:
+                  - generic [ref=e441]:
+                    - strong [ref=e443]: 색상정보
+                    - list [ref=e444]:
+                      - listitem [ref=e445]:
+                        - generic [ref=e446]: 아이보리
+                      - listitem [ref=e447]:
+                        - generic [ref=e448]: 네이비
+                  - generic [ref=e449]:
+                    - strong [ref=e451]: 상품정보
+                    - list [ref=e452]:
+                      - listitem [ref=e453]:
+                        - generic [ref=e454]: 상품번호
+                        - generic [ref=e455]:
+                          - text: "13670767014"
+                          - button "상품번호 복사" [ref=e456] [cursor=pointer]: 복사
+                      - listitem [ref=e460]:
+                        - generic [ref=e461]: 제조사
+                        - generic [ref=e462]: 자체제작
+                      - listitem [ref=e463]:
+                        - generic [ref=e464]: 브랜드
+                        - generic [ref=e465]: 자체제작 상품
+                      - listitem [ref=e466]:
+                        - generic [ref=e467]: 원산지
+                        - generic [ref=e468]: 국산
+                      - listitem [ref=e469]:
+                        - generic [ref=e470]: 제조일자
+                        - generic [ref=e471]: 2026.07.01.
+                      - listitem [ref=e472]:
+                        - generic [ref=e473]: 핏
+                        - generic [ref=e474]: 기본핏
+                      - listitem [ref=e475]:
+                        - generic [ref=e476]: 주요소재
+                        - generic [ref=e477]: 면
+                      - listitem [ref=e478]:
+                        - generic [ref=e479]: 소매기장
+                        - generic [ref=e480]: 민소매
+                      - listitem [ref=e481]:
+                        - generic [ref=e482]: 네크라인
+                        - generic [ref=e483]: 라운드넥
+                    - button "상품정보 펼쳐보기" [ref=e485] [cursor=pointer]
+                    - generic [ref=e488]:
+                      - button "신고하기" [ref=e489] [cursor=pointer]
+                      - button "상품정보제공고시 보기" [ref=e490] [cursor=pointer]
+                - generic [ref=e494]:
+                  - strong [ref=e496]: 관련 태그
+                  - list [ref=e497]:
+                    - listitem [ref=e498]:
+                      - link "#플레어원피스" [ref=e499] [cursor=pointer]:
+                        - /url: /puryn/search?q=%23%ED%94%8C%EB%A0%88%EC%96%B4%EC%9B%90%ED%94%BC%EC%8A%A4
+                    - listitem [ref=e500]:
+                      - link "#얇은원피스" [ref=e501] [cursor=pointer]:
+                        - /url: /puryn/search?q=%23%EC%96%87%EC%9D%80%EC%9B%90%ED%94%BC%EC%8A%A4
+                    - listitem [ref=e502]:
+                      - link "#여름원피스" [ref=e503] [cursor=pointer]:
+                        - /url: /puryn/search?q=%23%EC%97%AC%EB%A6%84%EC%9B%90%ED%94%BC%EC%8A%A4
+                    - listitem [ref=e504]:
+                      - link "#휴가룩" [ref=e505] [cursor=pointer]:
+                        - /url: /puryn/search?q=%23%ED%9C%B4%EA%B0%80%EB%A3%A9
+                    - listitem [ref=e506]:
+                      - link "#휴가코디" [ref=e507] [cursor=pointer]:
+                        - /url: /puryn/search?q=%23%ED%9C%B4%EA%B0%80%EC%BD%94%EB%94%94
+                    - listitem [ref=e508]:
+                      - link "#민소매원피스" [ref=e509] [cursor=pointer]:
+                        - /url: /puryn/search?q=%23%EB%AF%BC%EC%86%8C%EB%A7%A4%EC%9B%90%ED%94%BC%EC%8A%A4
+                    - listitem [ref=e510]:
+                      - link "#나시원피스" [ref=e511] [cursor=pointer]:
+                        - /url: /puryn/search?q=%23%EB%82%98%EC%8B%9C%EC%9B%90%ED%94%BC%EC%8A%A4
+                    - listitem [ref=e512]:
+                      - link "#미니원피스" [ref=e513] [cursor=pointer]:
+                        - /url: /puryn/search?q=%23%EB%AF%B8%EB%8B%88%EC%9B%90%ED%94%BC%EC%8A%A4
+                    - listitem [ref=e514]:
+                      - link "#여름룩" [ref=e515] [cursor=pointer]:
+                        - /url: /puryn/search?q=%23%EC%97%AC%EB%A6%84%EB%A3%A9
+                    - listitem [ref=e516]:
+                      - link "#플레어스커트" [ref=e517] [cursor=pointer]:
+                        - /url: /puryn/search?q=%23%ED%94%8C%EB%A0%88%EC%96%B4%EC%8A%A4%EC%BB%A4%ED%8A%B8
+              - generic [ref=e521]:
+                - strong [ref=e523]: 같이 둘러볼 만한 다양한 스토어 상품
+                - list [ref=e529]:
+                  - listitem [ref=e530]
+                  - listitem [ref=e547]
+                  - listitem [ref=e564]
+                  - listitem [ref=e581]
+              - generic [ref=e601]:
+                - strong [ref=e604]: 관련 숏클립
+                - list [ref=e605]:
+                  - listitem [ref=e606]
+                  - listitem [ref=e612]
+                  - listitem [ref=e618]
+                  - listitem [ref=e624]
+                  - listitem [ref=e630]
+              - generic [ref=e639]:
+                - strong [ref=e641]: 리뷰
+                - list [ref=e650]:
+                  - listitem [ref=e651]
+                  - listitem [ref=e653]
+                  - listitem [ref=e655]
+                  - listitem [ref=e657]
+                  - listitem [ref=e659]
+                - list [ref=e661]:
+                  - listitem [ref=e662]
+                  - listitem [ref=e678]
+                  - listitem [ref=e694]
+                  - listitem [ref=e710]
+                  - listitem [ref=e726]
+                  - listitem [ref=e742]
+                  - listitem [ref=e758]
+                  - listitem [ref=e774]
+              - generic [ref=e793]:
+                - strong [ref=e795]: Q&A
+                - list [ref=e798]:
+                  - listitem [ref=e799]
+                  - listitem [ref=e801]
+                  - listitem [ref=e803]
+                  - listitem [ref=e805]
+                - button "Q&A 전체보기" [ref=e808] [cursor=pointer]
+              - generic [ref=e813]:
+                - generic [ref=e814]:
+                  - link [ref=e815] [cursor=pointer]:
+                    - /url: /puryn
+                    - img "이미지정보" [ref=e816]
+                  - generic [ref=e817]:
+                    - link "퓨린이 PURYN" [ref=e819] [cursor=pointer]:
+                      - /url: /puryn
+                    - paragraph [ref=e820]: 여성의류 전문 쇼핑몰, 재킷, 티셔츠, 블라우스, 스커트, 팬츠 등 판매
+                    - list [ref=e821]:
+                      - listitem [ref=e822]:
+                        - button "관심고객수 13" [ref=e823] [cursor=pointer]
+                        - button "도움말" [ref=e825] [cursor=pointer]
+                    - link "퓨린이 PURYN 등급 혜택 확인" [ref=e831] [cursor=pointer]:
+                      - /url: /puryn/gradebenefit
+                      - generic [ref=e832]: 퓨린이 PURYN
+                      - text: 등급 혜택 확인
+                - list [ref=e835]:
+                  - listitem [ref=e836]:
+                    - button "알림받기" [ref=e837] [cursor=pointer]
+                  - listitem [ref=e841]:
+                    - link "스토어홈" [ref=e842] [cursor=pointer]:
+                      - /url: /puryn
+              - generic [ref=e848]:
+                - list [ref=e850]:
+                  - listitem [ref=e851]
+                  - listitem [ref=e853]
+                  - listitem [ref=e855]
+                  - listitem [ref=e857]
+                - tabpanel [ref=e859]:
+                  - list [ref=e864]:
+                    - listitem [ref=e865]
+                    - listitem [ref=e882]
+                    - listitem [ref=e899]
+                    - listitem [ref=e916]
+              - generic [ref=e935]:
+                - list [ref=e936]:
+                  - listitem [ref=e937]:
+                    - link "구매 추가정보" [ref=e938] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e941]:
+                    - link "상품정보 제공고시" [ref=e942] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e945]:
+                    - link "반품/교환안내" [ref=e946] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e949]:
+                    - link "판매자정보" [ref=e950] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e953]:
+                    - link "주의사항" [ref=e954] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e957]:
+                    - link "쇼핑 안전거래 TIP" [ref=e958] [cursor=pointer]:
+                      - /url: https://safety.smartstore.naver.com/main/rules/safety/tip
+                  - listitem [ref=e961]:
+                    - link "상품정보 신고" [ref=e962] [cursor=pointer]:
+                      - /url: "#"
+                - generic [ref=e965]:
+                  - generic [ref=e966]: 네이버파이낸셜
+                  - generic [ref=e967]: "결제대금예치업 등록번호 : 02-006-00056"
+                  - paragraph [ref=e968]: 네이버파이낸셜㈜은 전자금융거래법에 따라 결제대금예치업을 운영할 수 있는 전자금융업자로 금융위원회로 등록되었으며, 본 판매자는 구매금액, 결제수단에 관계없이 모든 거래에 대해 자동적으로 네이버파이낸셜㈜이 제공하는 구매안전서비스를 적용하고 있습니다.
+                  - button "서비스 가입사실 확인" [ref=e969] [cursor=pointer]
+                  - button "도움말" [ref=e971] [cursor=pointer]
+                - generic [ref=e976]:
+                  - generic [ref=e977]:
+                    - term [ref=e978]: 상호명
+                    - definition [ref=e979]: 퓨린 PURYN (개인 사업자)
+                  - generic [ref=e980]:
+                    - term [ref=e981]: 대표자
+                    - definition [ref=e982]:
+                      - text: 김다인
+                      - button "판매자 상세정보 확인" [ref=e983] [cursor=pointer]
+          - generic [ref=e987]:
+            - generic [ref=e988]:
+              - button "공유하기" [ref=e995] [cursor=pointer]
+              - button [ref=e998] [cursor=pointer]:
+                - img "맨위로" [ref=e999]
+            - generic [ref=e1001]:
+              - generic [ref=e1002]: 상품 구매 옵션
+              - generic [ref=e1003]:
+                - generic [ref=e1005]:
+                  - generic [ref=e1006]:
+                    - paragraph [ref=e1007]: 색상 선택
+                    - radiogroup [ref=e1008]:
+                      - radiogroup [ref=e1011]:
+                        - list [ref=e1012]:
+                          - listitem [ref=e1013]:
+                            - radio "아이보리" [ref=e1014] [cursor=pointer]
+                          - listitem [ref=e1016]:
+                            - radio "네이비" [ref=e1017] [cursor=pointer]
+                  - generic [ref=e1019]:
+                    - paragraph [ref=e1020]:
+                      - generic [ref=e1021]: 사이즈 선택
+                    - radiogroup "사이즈 선택" [ref=e1022]:
+                      - radiogroup [ref=e1025]:
+                        - list [ref=e1026]:
+                          - listitem [ref=e1027]:
+                            - radio "Free" [ref=e1028] [cursor=pointer]
+                - generic [ref=e1030]:
+                  - strong [ref=e1031]: 배송정보
+                  - generic [ref=e1032]:
+                    - generic [ref=e1033]: 택배
+                    - generic [ref=e1034]: 배송비 무료
+            - generic [ref=e1035]:
+              - button "구매하기" [ref=e1037] [cursor=pointer]
+              - generic [ref=e1040]:
+                - button "찜 하기" [ref=e1041] [cursor=pointer]:
+                  - text: 찜
+                  - generic [ref=e1044]: 하기
+                - button "장바구니" [ref=e1045] [cursor=pointer]

@@ -1,0 +1,1304 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - term [ref=e2]: skip menu
+    - definition:
+      - link "본문 영역 바로가기(Go to content)" [ref=e3] [cursor=pointer]:
+        - /url: "#container"
+    - definition:
+      - link "메인 메뉴 영역 바로가기(Go to main menu)" [ref=e4] [cursor=pointer]:
+        - /url: "#header_desktop"
+    - definition:
+      - link "하단 영역 바로가기(Go to footer)" [ref=e5] [cursor=pointer]:
+        - /url: "#footer_desktop"
+  - banner [ref=e6]:
+    - navigation [ref=e7]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - heading [level=1] [ref=e11]:
+            - button "W CONCEPT" [ref=e12] [cursor=pointer]
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - button [ref=e15] [cursor=pointer]:
+                - figure [ref=e16]: 로그인/회원가입
+            - listitem [ref=e17]:
+              - button [ref=e18] [cursor=pointer]:
+                - figure [ref=e19]: 마이하트
+            - listitem [ref=e20]:
+              - button [ref=e21] [cursor=pointer]:
+                - figure [ref=e22]: 마이페이지
+            - listitem [ref=e23]:
+              - button "0" [ref=e24] [cursor=pointer]:
+                - figure [ref=e25]: 쇼핑백
+        - generic [ref=e27]:
+          - button [ref=e29] [cursor=pointer]:
+            - figure [ref=e30]: 카테고리
+          - generic [ref=e31]:
+            - list [ref=e32]:
+              - listitem [ref=e33]:
+                - button "새로운 시작" [ref=e34] [cursor=pointer]
+              - listitem [ref=e36]:
+                - button "베스트" [ref=e37] [cursor=pointer]
+              - listitem [ref=e39]:
+                - button "단독" [ref=e40] [cursor=pointer]
+              - listitem [ref=e42]:
+                - button "세일" [ref=e43] [cursor=pointer]
+              - listitem [ref=e45]:
+                - button "신상" [ref=e46] [cursor=pointer]
+              - listitem [ref=e48]:
+                - button "추천" [ref=e49] [cursor=pointer]
+              - listitem [ref=e51]:
+                - button "발견" [ref=e52] [cursor=pointer]
+            - list [ref=e54]:
+              - listitem [ref=e55]:
+                - button "우먼" [ref=e56] [cursor=pointer]
+              - listitem [ref=e58]:
+                - button "액티브" [ref=e59] [cursor=pointer]
+              - listitem [ref=e61]:
+                - button "뷰티" [ref=e62] [cursor=pointer]
+              - listitem [ref=e64]:
+                - button "라이프" [ref=e65] [cursor=pointer]
+              - listitem [ref=e67]:
+                - button "키즈" [ref=e68] [cursor=pointer]
+              - listitem [ref=e70]:
+                - button "맨" [ref=e71] [cursor=pointer]
+          - generic [ref=e74]:
+            - textbox [ref=e75]
+            - button [ref=e76] [cursor=pointer]:
+              - figure [ref=e77]: 검색
+  - generic [ref=e79]:
+    - list [ref=e80]:
+      - listitem [ref=e81]:
+        - link "HOME" [ref=e82] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e83]:
+        - link "여성" [ref=e84] [cursor=pointer]:
+          - /url: //display.wconcept.co.kr/category/women/001?scrollTop=Y
+      - listitem [ref=e85]:
+        - button "의류" [ref=e86] [cursor=pointer]
+      - listitem [ref=e87]:
+        - button "아우터" [ref=e88] [cursor=pointer]
+      - listitem [ref=e89]:
+        - button "자켓" [ref=e90] [cursor=pointer]
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e94]:
+          - img "BUTTON LAMB SUEDE JACKET - SLATE BLUE" [ref=e96]
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - link [ref=e100] [cursor=pointer]:
+                - /url: "#"
+                - img "BUTTON LAMB SUEDE JACKET - SLATE BLUE" [ref=e101]
+            - listitem [ref=e102]:
+              - link [ref=e103] [cursor=pointer]:
+                - /url: "#"
+                - img "BUTTON LAMB SUEDE JACKET - SLATE BLUE" [ref=e104]
+            - listitem [ref=e105]:
+              - link [ref=e106] [cursor=pointer]:
+                - /url: "#"
+                - img "BUTTON LAMB SUEDE JACKET - SLATE BLUE" [ref=e107]
+            - listitem [ref=e108]:
+              - link [ref=e109] [cursor=pointer]:
+                - /url: "#"
+                - img "BUTTON LAMB SUEDE JACKET - SLATE BLUE" [ref=e110]
+            - listitem [ref=e111]:
+              - link [ref=e112] [cursor=pointer]:
+                - /url: "#"
+                - img "BUTTON LAMB SUEDE JACKET - SLATE BLUE" [ref=e113]
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - heading [level=2] [ref=e117] [cursor=pointer]:
+                - link "라 코스모" [ref=e118]:
+                  - /url: /Brand/113831
+              - paragraph [ref=e119]:
+                - generic [ref=e120]: 시즌프리뷰
+              - button [ref=e121] [cursor=pointer]:
+                - emphasis [ref=e122]: MY
+                - emphasis [ref=e124]: BRAND
+              - generic [ref=e125]:
+                - paragraph [ref=e126]: "[PRE-OPEN] | [09/21 예약배송]"
+                - heading "BUTTON LAMB SUEDE JACKET - SLATE BLUE" [level=3] [ref=e127]
+                - list [ref=e128]:
+                  - listitem [ref=e129]:
+                    - button [ref=e130] [cursor=pointer]:
+                      - figure [ref=e131]: 공유하기
+            - generic [ref=e133]:
+              - term [ref=e134]: 정상가
+              - definition [ref=e135]:
+                - emphasis [ref=e136]: 798,000
+                - text: 원
+              - term [ref=e137]:
+                - generic [ref=e138]: 쿠폰적용가
+                - generic [ref=e139]: 할인내역
+              - definition [ref=e141]:
+                - emphasis [ref=e142]: 648,300
+                - text: 원 18%
+                - button "쿠폰받기" [ref=e143] [cursor=pointer]
+              - generic:
+                - term [ref=e144]: 신규회원가
+                - definition [ref=e145]:
+                  - emphasis [ref=e146]: 628,300
+                  - text: 원
+                  - button "가입 혜택 보기" [ref=e147] [cursor=pointer]
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - term [ref=e150]: 추가혜택가
+                - definition [ref=e151]:
+                  - generic [ref=e152]:
+                    - generic [ref=e153]:
+                      - list:
+                        - listitem [ref=e154]:
+                          - text: Toss Pay
+                          - strong [ref=e155]: 할인
+                          - text: 1,000
+                          - strong [ref=e156]: 원
+                          - strong [ref=e157]: 할인
+                          - emphasis [ref=e158]: 토스페이 머니/계좌 5만원 이상 결제 시 1천원 즉시할인
+                        - listitem [ref=e159]:
+                          - text: Toss Pay
+                          - strong [ref=e160]: 할인
+                          - text: 6,000
+                          - strong [ref=e161]: 원
+                          - strong [ref=e162]: 할인
+                          - emphasis [ref=e163]: 토스페이 15만원 이상 결제 시 6천원 즉시할인
+                        - listitem [ref=e164]:
+                          - text: W컨셉 삼성카드
+                          - strong [ref=e165]: 할인
+                          - text: 40,000
+                          - strong [ref=e166]: 원
+                          - strong [ref=e167]: 할인
+                          - emphasis [ref=e168]: 7만원 이상 첫결제 4만원 할인('일반결제' > 'W컨셉 삼성카드' 결제수단 선택시에만 적용)
+                        - listitem [ref=e169]:
+                          - text: W컨셉 삼성카드
+                          - strong [ref=e170]: 할인
+                          - text: 8,000
+                          - strong [ref=e171]: 원
+                          - strong [ref=e172]: 할인
+                          - emphasis [ref=e173]: 20만원 이상 결제 시 8천원 할인 ('일반결제' > 'W컨셉 삼성카드' 결제수단 선택시에만 적용)
+                        - listitem [ref=e174]:
+                          - text: 현대카드
+                          - strong [ref=e175]: 사용
+                          - text: 10,000
+                          - strong [ref=e176]: 포인트
+                          - strong [ref=e177]: 사용
+                          - emphasis [ref=e178]: 현대카드 10만원 이상 결제 시 M포인트 5% 사용 가능(최대 1만P)
+                        - listitem [ref=e179]:
+                          - text: 삼성카드
+                          - strong [ref=e180]: 할인
+                          - text: 5,000
+                          - strong [ref=e181]: 원
+                          - strong [ref=e182]: 할인
+                          - emphasis [ref=e183]: 삼성카드 LINK하고 15만원 이상 결제 시 5천원 결제일 할인
+                        - listitem [ref=e184]:
+                          - text: KakaoPay
+                          - strong [ref=e185]: 할인
+                          - text: 5,000
+                          - strong [ref=e186]: 원
+                          - strong [ref=e187]: 할인
+                          - emphasis [ref=e188]: 카카오페이로 NH농협카드 14만원 이상 결제 시 5천원 즉시할인 (카카오페이 연결 후 해당카드 선택)
+                        - listitem [ref=e189]:
+                          - text: KakaoPay
+                          - strong [ref=e190]: 할인
+                          - text: 5,000
+                          - strong [ref=e191]: 원
+                          - strong [ref=e192]: 할인
+                          - emphasis [ref=e193]: 카카오페이로 우리카드 14만원 이상 결제 시 5천원 즉시할인 (카카오페이 연결 후 해당카드 선택)
+                        - listitem [ref=e194]:
+                          - text: KakaoPay
+                          - strong [ref=e195]: 할인
+                          - text: 5,000
+                          - strong [ref=e196]: 원
+                          - strong [ref=e197]: 할인
+                          - emphasis [ref=e198]: 카카오페이머니 13만원 이상 결제 시 5천원 즉시할인
+                        - listitem [ref=e199]:
+                          - text: KakaoPay
+                          - strong [ref=e200]: 할인
+                          - text: 7,000
+                          - strong [ref=e201]: 원
+                          - strong [ref=e202]: 할인
+                          - emphasis [ref=e203]: 카카오페이머니 17만원 이상 결제 시 7천원 즉시할인
+                        - listitem [ref=e204]:
+                          - text: Toss Pay
+                          - strong [ref=e205]: 할인
+                          - text: 1,000
+                          - strong [ref=e206]: 원
+                          - strong [ref=e207]: 할인
+                          - emphasis [ref=e208]: 토스페이 머니/계좌 5만원 이상 결제 시 1천원 즉시할인
+                        - listitem [ref=e209]:
+                          - text: Toss Pay
+                          - strong [ref=e210]: 할인
+                          - text: 6,000
+                          - strong [ref=e211]: 원
+                          - strong [ref=e212]: 할인
+                          - emphasis [ref=e213]: 토스페이 15만원 이상 결제 시 6천원 즉시할인
+                        - listitem [ref=e214]:
+                          - text: W컨셉 삼성카드
+                          - strong [ref=e215]: 할인
+                          - text: 40,000
+                          - strong [ref=e216]: 원
+                          - strong [ref=e217]: 할인
+                          - emphasis [ref=e218]: 7만원 이상 첫결제 4만원 할인('일반결제' > 'W컨셉 삼성카드' 결제수단 선택시에만 적용)
+                        - listitem [ref=e219]:
+                          - text: W컨셉 삼성카드
+                          - strong [ref=e220]: 할인
+                          - text: 8,000
+                          - strong [ref=e221]: 원
+                          - strong [ref=e222]: 할인
+                          - emphasis [ref=e223]: 20만원 이상 결제 시 8천원 할인 ('일반결제' > 'W컨셉 삼성카드' 결제수단 선택시에만 적용)
+                    - generic [ref=e224]:
+                      - link "이전" [ref=e225] [cursor=pointer]:
+                        - /url: "#"
+                      - link "다음" [ref=e226] [cursor=pointer]:
+                        - /url: "#"
+              - button "추가혜택 더보기" [ref=e227] [cursor=pointer]
+            - generic [ref=e228]:
+              - term [ref=e229]: 무이자 할부
+              - definition [ref=e230]:
+                - text: 최대 6개월(
+                - emphasis [ref=e231]: 113,050
+                - text: 원 X 6개월)
+                - button "카드안내" [ref=e232] [cursor=pointer]
+              - term [ref=e233]: 쇼핑가이드
+              - definition [ref=e234]:
+                - generic [ref=e235]: 쿠폰
+                - generic [ref=e236]: 예약
+              - term [ref=e237]:
+                - text: 배송정보
+                - button [ref=e239] [cursor=pointer]:
+                  - figure [ref=e240]: 도움말
+              - definition [ref=e241]:
+                - paragraph [ref=e242]: 2026-09-21 부터 순차배송(결제완료고객)
+              - term [ref=e243]: 배송비
+              - definition [ref=e244]: "100,000원 미만 구매 시 배송비 4,000원 (제주 : 8,000원 / 도서산간 : 8,000원 추가)"
+            - list [ref=e246]:
+              - listitem [ref=e247]:
+                - link [ref=e248] [cursor=pointer]:
+                  - /url: /Product/308912860
+                  - img "SLATE BLUE" [ref=e250]
+              - listitem [ref=e251]:
+                - link [ref=e252] [cursor=pointer]:
+                  - /url: /Product/308912861
+                  - img "CAMEL" [ref=e254]
+            - generic [ref=e255]:
+              - list [ref=e257]:
+                - listitem [ref=e258]:
+                  - emphasis [ref=e259]: FREE
+                  - generic [ref=e260]:
+                    - generic [ref=e261]:
+                      - textbox [ref=e262]: "1"
+                      - generic [ref=e263]:
+                        - button "증가" [ref=e264] [cursor=pointer]
+                        - button "감소" [ref=e265] [cursor=pointer]
+                    - generic [ref=e266]: 678,300원
+              - button "사이즈 가이드" [ref=e268] [cursor=pointer]
+            - list [ref=e269]:
+              - listitem [ref=e270]:
+                - button "바로 구매" [ref=e271] [cursor=pointer]
+              - listitem [ref=e272]:
+                - button "쇼핑백 담기" [ref=e273] [cursor=pointer]
+              - listitem [ref=e274]:
+                - button "선물하기" [ref=e275] [cursor=pointer]
+              - listitem [ref=e277]:
+                - button [ref=e278] [cursor=pointer]:
+                  - paragraph
+          - generic [ref=e279]:
+            - term [ref=e280]: 상품 요약 정보
+            - definition [ref=e281]:
+              - list [ref=e282]:
+                - listitem [ref=e283]:
+                  - generic [ref=e284]: 상품코드
+                  - text: "308912860"
+                - listitem [ref=e285]:
+                  - generic [ref=e286]: 소재
+                  - text: LAMB SUEDE 100%
+                - listitem [ref=e287]:
+                  - generic [ref=e288]: 제조사/제조국
+                  - text: LA KOSMO (라 코스모) / CHINA
+      - generic [ref=e289]:
+        - heading [level=4] [ref=e290]:
+          - link "라 코스모의 다른 상품" [ref=e291] [cursor=pointer]:
+            - /url: //display.wconcept.co.kr/brand/113831
+        - list [ref=e292]:
+          - listitem [ref=e293]:
+            - link [ref=e294] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "WIRE-TRIM LEATHER JACKET - WASHED BLACK" [ref=e295]
+          - listitem [ref=e296]:
+            - link [ref=e297] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "DRAWSTRING SUEDE JACKET - ESPRESSO" [ref=e298]
+          - listitem [ref=e299]:
+            - link [ref=e300] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "WIRE-TRIM LEATHER JACKET - WASHED BROWN" [ref=e301]
+          - listitem [ref=e302]:
+            - link [ref=e303] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "DRAWSTRING SUEDE JACKET - DEEP FOREST" [ref=e304]
+          - listitem [ref=e305]:
+            - link [ref=e306] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "SUEDE BLOUSON - SLATE CHARCOAL" [ref=e307]
+          - listitem [ref=e308]:
+            - link [ref=e309] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "BUTTON LAMB SUEDE JACKET - CAMEL" [ref=e310]
+          - listitem [ref=e311]:
+            - link [ref=e312] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "HIGH-NECK LEATHER TRENCH - BLACK" [ref=e313]
+          - listitem [ref=e314]:
+            - link [ref=e315] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "HIGH-NECK LEATHER TRENCH - BRICK BROWN" [ref=e316]
+      - list [ref=e317]:
+        - listitem [ref=e318]:
+          - link "DETAIL" [ref=e319] [cursor=pointer]:
+            - /url: "#detail"
+        - listitem [ref=e320] [cursor=pointer]:
+          - generic [ref=e321]:
+            - text: REVIEW
+            - emphasis
+        - listitem [ref=e322] [cursor=pointer]:
+          - generic [ref=e323]:
+            - text: Q&A
+            - emphasis
+        - listitem [ref=e324] [cursor=pointer]:
+          - generic [ref=e325]: RETURN & DELIVERY
+      - generic [ref=e326]:
+        - generic [ref=e327]:
+          - heading "1차 예약배송 공지" [level=4] [ref=e328]
+          - list [ref=e330]:
+            - listitem [ref=e331]:
+              - heading "주문기간" [level=5] [ref=e332]
+              - paragraph [ref=e333]: 8/17(월) ~ 9/20(일)
+              - generic [ref=e334]: 기간 내 결제완료 시
+            - listitem [ref=e335]:
+              - heading "배송일자" [level=5] [ref=e336]
+              - paragraph [ref=e337]:
+                - text: 9/21
+                - emphasis [ref=e339]: (월)
+              - generic [ref=e340]: 이후 순차배송
+        - generic [ref=e341]: 최대한 빠른 배송이 될 수 있도록 최선을 다하겠습니다. 고객님의 성원에 감사드립니다.
+        - link [ref=e343] [cursor=pointer]:
+          - /url: https://display.wconcept.co.kr/rn/promotion/82
+        - generic [ref=e344]:
+          - paragraph [ref=e345]
+          - paragraph
+          - paragraph [ref=e349]
+          - paragraph
+          - paragraph
+          - paragraph
+        - button "상품정보 더보기" [ref=e351] [cursor=pointer]
+        - heading [level=4] [ref=e353]:
+          - button "상품 정보 고시" [ref=e354] [cursor=pointer]
+        - heading [level=4] [ref=e355]:
+          - button "판매자 정보" [ref=e356] [cursor=pointer]
+        - generic [ref=e357]:
+          - list [ref=e358]:
+            - listitem [ref=e359]:
+              - button "다른 고객이 함께 본 상품" [ref=e360] [cursor=pointer]
+          - generic [ref=e361]:
+            - list [ref=e363]:
+              - listitem [ref=e364]:
+                - link [ref=e365] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e368]:
+                    - generic [ref=e369]:
+                      - generic [ref=e370]: 프론트로우
+                      - generic [ref=e371]: Oversized Wool Tailored Jacket_2color
+                    - generic [ref=e372]:
+                      - generic [ref=e373]: 186,480
+                      - generic [ref=e374]: 259,000
+                      - generic [ref=e375]: 28%
+              - listitem [ref=e376]:
+                - link [ref=e377] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e380]:
+                    - generic [ref=e381]:
+                      - generic [ref=e382]: 프론트로우
+                      - generic [ref=e383]: "[이태리 트위드]Trimmed Over-fit Tweed Jacket_2color"
+                    - generic [ref=e384]:
+                      - generic [ref=e385]: 197,576
+                      - generic [ref=e386]: 279,000
+                      - generic [ref=e387]: 29%
+              - listitem [ref=e388]:
+                - link [ref=e389] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e392]:
+                    - generic [ref=e393]:
+                      - generic [ref=e394]: 비에이유 바이 브라이드앤유
+                      - generic [ref=e395]: "[SET] TRINITY Double breasted tailored half sleeve blazer + VASHTI ..."
+                    - generic [ref=e396]:
+                      - generic [ref=e397]: 496,000
+                      - generic [ref=e398]: 526,000
+                      - generic [ref=e399]: 5%
+              - listitem [ref=e400]:
+                - link [ref=e401] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e404]:
+                    - generic [ref=e405]:
+                      - generic [ref=e406]: 비에이유 바이 브라이드앤유
+                      - generic [ref=e407]: "[SET]TRINITY Double breasted tailored blazer + VASHTI Bootcut tro..."
+                    - generic [ref=e408]:
+                      - generic [ref=e409]: 480,480
+                      - generic [ref=e410]: 546,000
+                      - generic [ref=e411]: 12%
+              - listitem [ref=e412]:
+                - link [ref=e413] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e416]:
+                    - generic [ref=e417]:
+                      - generic [ref=e418]: 비에이유 바이 브라이드앤유
+                      - generic [ref=e419]: "[3차]KAIDA Double breasted tailored half sleeve blazer (Ivory/Moder..."
+                    - generic [ref=e420]:
+                      - generic [ref=e421]: 298,000
+                      - generic [ref=e422]: 328,000
+                      - generic [ref=e423]: 9%
+              - listitem [ref=e424]:
+                - link [ref=e425] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e428]:
+                    - generic [ref=e429]:
+                      - generic [ref=e430]: 시티브리즈
+                      - generic [ref=e431]: "[리뉴얼 ver] 루즈핏 사선 절개 싱글 자켓_3COLORS"
+                    - generic [ref=e432]:
+                      - generic [ref=e433]: 169,280
+                      - generic [ref=e434]: 249,000
+                      - generic [ref=e435]: 32%
+              - listitem [ref=e436]:
+                - link [ref=e437] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e440]:
+                    - generic [ref=e441]:
+                      - generic [ref=e442]: 오스트카카
+                      - generic [ref=e443]: 트위드 싱글 크롭 자켓_2colors
+                    - generic [ref=e444]:
+                      - generic [ref=e445]: 84,575
+                      - generic [ref=e446]: 199,000
+                      - generic [ref=e447]: 57%
+              - listitem [ref=e448]:
+                - link "니야 오버핏 싱글 자켓 / NIYA OVERFIT SINGLE JACKET_3colors 룩캐스트 니야 오버핏 싱글 자켓 / NIYA OVERFIT SINGLE JACKET_3colors 164,424 208,000 20%" [ref=e449] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "니야 오버핏 싱글 자켓 / NIYA OVERFIT SINGLE JACKET_3colors" [ref=e451]
+                  - generic [ref=e452]:
+                    - generic [ref=e453]:
+                      - generic [ref=e454]: 룩캐스트
+                      - generic [ref=e455]: 니야 오버핏 싱글 자켓 / NIYA OVERFIT SINGLE JACKET_3colors
+                    - generic [ref=e456]:
+                      - generic [ref=e457]: 164,424
+                      - generic [ref=e458]: 208,000
+                      - generic [ref=e459]: 20%
+              - listitem [ref=e460]:
+                - link "[Drama Signature] Slim Button Blazer_3color 프론트로우 [Drama Signature] Slim Button Blazer_3color 148,920 219,000 32%" [ref=e461] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "[Drama Signature] Slim Button Blazer_3color" [ref=e463]
+                  - generic [ref=e464]:
+                    - generic [ref=e465]:
+                      - generic [ref=e466]: 프론트로우
+                      - generic [ref=e467]: "[Drama Signature] Slim Button Blazer_3color"
+                    - generic [ref=e468]:
+                      - generic [ref=e469]: 148,920
+                      - generic [ref=e470]: 219,000
+                      - generic [ref=e471]: 32%
+              - listitem [ref=e472]:
+                - link "Amelia Hourglass Wool Jacket_2color 프론트로우 Amelia Hourglass Wool Jacket_2color 95,600 239,000 60%" [ref=e473] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "Amelia Hourglass Wool Jacket_2color" [ref=e475]
+                  - generic [ref=e476]:
+                    - generic [ref=e477]:
+                      - generic [ref=e478]: 프론트로우
+                      - generic [ref=e479]: Amelia Hourglass Wool Jacket_2color
+                    - generic [ref=e480]:
+                      - generic [ref=e481]: 95,600
+                      - generic [ref=e482]: 239,000
+                      - generic [ref=e483]: 60%
+              - listitem [ref=e484]:
+                - link "[Premium] Amalfi Summer Tweed Jacket_2color 프론트로우 [Premium] Amalfi Summer Tweed Jacket_2color 143,400 239,000 40%" [ref=e485] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "[Premium] Amalfi Summer Tweed Jacket_2color" [ref=e487]
+                  - generic [ref=e488]:
+                    - generic [ref=e489]:
+                      - generic [ref=e490]: 프론트로우
+                      - generic [ref=e491]: "[Premium] Amalfi Summer Tweed Jacket_2color"
+                    - generic [ref=e492]:
+                      - generic [ref=e493]: 143,400
+                      - generic [ref=e494]: 239,000
+                      - generic [ref=e495]: 40%
+              - listitem [ref=e496]:
+                - link "Russu tweed Crop jacket(4colors) 이바나헬싱키 Russu tweed Crop jacket(4colors) 176,035 218,000 19%" [ref=e497] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "Russu tweed Crop jacket(4colors)" [ref=e499]
+                  - generic [ref=e500]:
+                    - generic [ref=e501]:
+                      - generic [ref=e502]: 이바나헬싱키
+                      - generic [ref=e503]: Russu tweed Crop jacket(4colors)
+                    - generic [ref=e504]:
+                      - generic [ref=e505]: 176,035
+                      - generic [ref=e506]: 218,000
+                      - generic [ref=e507]: 19%
+              - listitem [ref=e508]:
+                - link "[수입 소재] Half Mac Coat_2color 프론트로우 [수입 소재] Half Mac Coat_2color 176,120 259,000 32%" [ref=e509] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "[수입 소재] Half Mac Coat_2color" [ref=e511]
+                  - generic [ref=e512]:
+                    - generic [ref=e513]:
+                      - generic [ref=e514]: 프론트로우
+                      - generic [ref=e515]: "[수입 소재] Half Mac Coat_2color"
+                    - generic [ref=e516]:
+                      - generic [ref=e517]: 176,120
+                      - generic [ref=e518]: 259,000
+                      - generic [ref=e519]: 32%
+              - listitem [ref=e520]:
+                - link [ref=e521] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e524]:
+                    - generic [ref=e525]:
+                      - generic [ref=e526]: 프론트로우
+                      - generic [ref=e527]: "[이태리 울]Over-fit Wool Single Jacket_3color"
+                    - generic [ref=e528]:
+                      - generic [ref=e529]: 166,120
+                      - generic [ref=e530]: 259,000
+                      - generic [ref=e531]: 35%
+              - listitem [ref=e532]:
+                - link [ref=e533] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e536]:
+                    - generic [ref=e537]:
+                      - generic [ref=e538]: 프론트로우
+                      - generic [ref=e539]: "[이태리 울] Summer Wool Belted Half Sleeve Jacket_2color"
+                    - generic [ref=e540]:
+                      - generic [ref=e541]: 119,400
+                      - generic [ref=e542]: 199,000
+                      - generic [ref=e543]: 40%
+              - listitem [ref=e544]:
+                - link [ref=e545] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e548]:
+                    - generic [ref=e549]:
+                      - generic [ref=e550]: 프론트로우
+                      - generic [ref=e551]: "[Drama Signature] Dolman Sleeve Half Sleeve Jacket_2color"
+                    - generic [ref=e552]:
+                      - generic [ref=e553]: 135,320
+                      - generic [ref=e554]: 199,000
+                      - generic [ref=e555]: 32%
+              - listitem [ref=e556]:
+                - link [ref=e557] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e560]:
+                    - generic [ref=e561]:
+                      - generic [ref=e562]: 루에브르
+                      - generic [ref=e563]: Asymmetric Placket Faux Suede Jacket SL5XJ830-B8
+                    - generic [ref=e564]:
+                      - generic [ref=e565]: 244,120
+                      - generic [ref=e566]: 359,000
+                      - generic [ref=e567]: 32%
+              - listitem [ref=e568]:
+                - link [ref=e569] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e572]:
+                    - generic [ref=e573]:
+                      - generic [ref=e574]: 루에브르
+                      - generic [ref=e575]: "[NEW컬러추가][단독] Oversized tweed jacket SW5SJ102_3color"
+                    - generic [ref=e576]:
+                      - generic [ref=e577]: 176,120
+                      - generic [ref=e578]: 259,000
+                      - generic [ref=e579]: 32%
+              - listitem [ref=e580]:
+                - link [ref=e581] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e584]:
+                    - generic [ref=e585]:
+                      - generic [ref=e586]: 프론트로우
+                      - generic [ref=e587]: Oversized Wool Tailored Jacket_2color
+                    - generic [ref=e588]:
+                      - generic [ref=e589]: 186,480
+                      - generic [ref=e590]: 259,000
+                      - generic [ref=e591]: 28%
+              - listitem [ref=e592]:
+                - link [ref=e593] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e596]:
+                    - generic [ref=e597]:
+                      - generic [ref=e598]: 프론트로우
+                      - generic [ref=e599]: "[이태리 트위드]Trimmed Over-fit Tweed Jacket_2color"
+                    - generic [ref=e600]:
+                      - generic [ref=e601]: 197,576
+                      - generic [ref=e602]: 279,000
+                      - generic [ref=e603]: 29%
+              - listitem [ref=e604]:
+                - link [ref=e605] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e608]:
+                    - generic [ref=e609]:
+                      - generic [ref=e610]: 비에이유 바이 브라이드앤유
+                      - generic [ref=e611]: "[SET] TRINITY Double breasted tailored half sleeve blazer + VASHTI ..."
+                    - generic [ref=e612]:
+                      - generic [ref=e613]: 496,000
+                      - generic [ref=e614]: 526,000
+                      - generic [ref=e615]: 5%
+              - listitem [ref=e616]:
+                - link [ref=e617] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e620]:
+                    - generic [ref=e621]:
+                      - generic [ref=e622]: 비에이유 바이 브라이드앤유
+                      - generic [ref=e623]: "[SET]TRINITY Double breasted tailored blazer + VASHTI Bootcut tro..."
+                    - generic [ref=e624]:
+                      - generic [ref=e625]: 480,480
+                      - generic [ref=e626]: 546,000
+                      - generic [ref=e627]: 12%
+              - listitem [ref=e628]:
+                - link [ref=e629] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e632]:
+                    - generic [ref=e633]:
+                      - generic [ref=e634]: 비에이유 바이 브라이드앤유
+                      - generic [ref=e635]: "[3차]KAIDA Double breasted tailored half sleeve blazer (Ivory/Moder..."
+                    - generic [ref=e636]:
+                      - generic [ref=e637]: 298,000
+                      - generic [ref=e638]: 328,000
+                      - generic [ref=e639]: 9%
+              - listitem [ref=e640]:
+                - link [ref=e641] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e644]:
+                    - generic [ref=e645]:
+                      - generic [ref=e646]: 시티브리즈
+                      - generic [ref=e647]: "[리뉴얼 ver] 루즈핏 사선 절개 싱글 자켓_3COLORS"
+                    - generic [ref=e648]:
+                      - generic [ref=e649]: 169,280
+                      - generic [ref=e650]: 249,000
+                      - generic [ref=e651]: 32%
+              - listitem [ref=e652]:
+                - link [ref=e653] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e656]:
+                    - generic [ref=e657]:
+                      - generic [ref=e658]: 오스트카카
+                      - generic [ref=e659]: 트위드 싱글 크롭 자켓_2colors
+                    - generic [ref=e660]:
+                      - generic [ref=e661]: 84,575
+                      - generic [ref=e662]: 199,000
+                      - generic [ref=e663]: 57%
+              - listitem [ref=e664]:
+                - link [ref=e665] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e668]:
+                    - generic [ref=e669]:
+                      - generic [ref=e670]: 룩캐스트
+                      - generic [ref=e671]: 니야 오버핏 싱글 자켓 / NIYA OVERFIT SINGLE JACKET_3colors
+                    - generic [ref=e672]:
+                      - generic [ref=e673]: 164,424
+                      - generic [ref=e674]: 208,000
+                      - generic [ref=e675]: 20%
+              - listitem [ref=e676]:
+                - link [ref=e677] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e680]:
+                    - generic [ref=e681]:
+                      - generic [ref=e682]: 프론트로우
+                      - generic [ref=e683]: "[Drama Signature] Slim Button Blazer_3color"
+                    - generic [ref=e684]:
+                      - generic [ref=e685]: 148,920
+                      - generic [ref=e686]: 219,000
+                      - generic [ref=e687]: 32%
+              - listitem [ref=e688]:
+                - link [ref=e689] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e692]:
+                    - generic [ref=e693]:
+                      - generic [ref=e694]: 프론트로우
+                      - generic [ref=e695]: Amelia Hourglass Wool Jacket_2color
+                    - generic [ref=e696]:
+                      - generic [ref=e697]: 95,600
+                      - generic [ref=e698]: 239,000
+                      - generic [ref=e699]: 60%
+              - listitem [ref=e700]:
+                - link [ref=e701] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e704]:
+                    - generic [ref=e705]:
+                      - generic [ref=e706]: 프론트로우
+                      - generic [ref=e707]: "[Premium] Amalfi Summer Tweed Jacket_2color"
+                    - generic [ref=e708]:
+                      - generic [ref=e709]: 143,400
+                      - generic [ref=e710]: 239,000
+                      - generic [ref=e711]: 40%
+              - listitem [ref=e712]:
+                - link [ref=e713] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e716]:
+                    - generic [ref=e717]:
+                      - generic [ref=e718]: 이바나헬싱키
+                      - generic [ref=e719]: Russu tweed Crop jacket(4colors)
+                    - generic [ref=e720]:
+                      - generic [ref=e721]: 176,035
+                      - generic [ref=e722]: 218,000
+                      - generic [ref=e723]: 19%
+              - listitem [ref=e724]:
+                - link [ref=e725] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e728]:
+                    - generic [ref=e729]:
+                      - generic [ref=e730]: 프론트로우
+                      - generic [ref=e731]: "[수입 소재] Half Mac Coat_2color"
+                    - generic [ref=e732]:
+                      - generic [ref=e733]: 176,120
+                      - generic [ref=e734]: 259,000
+                      - generic [ref=e735]: 32%
+              - listitem [ref=e736]:
+                - link [ref=e737] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e740]:
+                    - generic [ref=e741]:
+                      - generic [ref=e742]: 프론트로우
+                      - generic [ref=e743]: "[이태리 울]Over-fit Wool Single Jacket_3color"
+                    - generic [ref=e744]:
+                      - generic [ref=e745]: 166,120
+                      - generic [ref=e746]: 259,000
+                      - generic [ref=e747]: 35%
+            - generic [ref=e748]:
+              - link "이전" [disabled] [ref=e749] [cursor=pointer]:
+                - /url: "#"
+              - link "다음" [disabled] [ref=e750] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e751]:
+          - heading "고객님을 위한 맞춤 뷰티 상품" [level=4] [ref=e752]
+          - generic [ref=e753]:
+            - list [ref=e755]:
+              - listitem [ref=e756]:
+                - link [ref=e757] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e760]:
+                    - generic [ref=e761]:
+                      - generic [ref=e762]: 아헤브
+                      - generic [ref=e763]: "[불고데 대체템] 올데이 컬링스틱"
+                    - generic [ref=e764]:
+                      - generic [ref=e765]: 31,734
+                      - generic [ref=e766]: 120,000
+                      - generic [ref=e767]: 73%
+              - listitem [ref=e768]:
+                - link [ref=e769] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e772]:
+                    - generic [ref=e773]:
+                      - generic [ref=e774]: 차홍
+                      - generic [ref=e775]: 에어 스타일러 2.0 대승령
+                    - generic [ref=e776]: 164,000
+              - listitem [ref=e778]:
+                - link [ref=e779] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e782]:
+                    - generic [ref=e783]:
+                      - generic [ref=e784]: 피캄
+                      - generic [ref=e785]: 서인영 디바이스 클리어프로(+PDRN 블루캡슐 세럼 10ml*2ea 증정)
+                    - generic [ref=e786]:
+                      - generic [ref=e787]: 135,200
+                      - generic [ref=e788]: 330,000
+                      - generic [ref=e789]: 59%
+              - listitem [ref=e790]:
+                - link [ref=e791] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e794]:
+                    - generic [ref=e795]:
+                      - generic [ref=e796]: 어바웃톤
+                      - generic [ref=e797]: 스킨 레이어 핏 파운데이션 (8colors)
+                    - generic [ref=e798]:
+                      - generic [ref=e799]: 17,600
+                      - generic [ref=e800]: 28,000
+                      - generic [ref=e801]: 37%
+              - listitem [ref=e802]:
+                - link [ref=e803] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e806]:
+                    - generic [ref=e807]:
+                      - generic [ref=e808]: 글램팜
+                      - generic [ref=e809]: "[GP501TBK] 글램뮤즈 터치 플랫 와이드 (오리지널블랙) 특대 매직고데기"
+                    - generic [ref=e810]: 260,000
+              - listitem [ref=e812]:
+                - link [ref=e813] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e816]:
+                    - generic [ref=e817]:
+                      - generic [ref=e818]: 듀얼소닉
+                      - generic [ref=e819]: "[★ W한정파격가 + 사은품만 42만원★] [프리미엄] 듀얼소닉 프로페셔널 ..."
+                    - generic [ref=e820]:
+                      - generic [ref=e821]: 1,325,000
+                      - generic [ref=e822]: 2,650,000
+                      - generic [ref=e823]: 50%
+              - listitem [ref=e824]:
+                - link [ref=e825] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e828]:
+                    - generic [ref=e829]:
+                      - generic [ref=e830]: 이오시카
+                      - generic [ref=e831]: IPL 제모의료기기 SIPL-2000 (20만회)
+                    - generic [ref=e832]:
+                      - generic [ref=e833]: 103,200
+                      - generic [ref=e834]: 225,000
+                      - generic [ref=e835]: 54%
+              - listitem [ref=e836]:
+                - link "[★W한정파격가 + 사은품증정★] [듀얼소닉] 프로페셔널 알파 완벽 두배샷 (1샷 26도트 / 페이스 4만샷 / 아이 40만샷) 듀얼소닉 [★W한정파격가 + 사은품증정★] [듀얼소닉] 프로페셔널 알파 완벽 두배... 3,690,000 7,410,000 50%" [ref=e837] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "[★W한정파격가 + 사은품증정★] [듀얼소닉] 프로페셔널 알파 완벽 두배샷 (1샷 26도트 / 페이스 4만샷 / 아이 40만샷)" [ref=e839]
+                  - generic [ref=e840]:
+                    - generic [ref=e841]:
+                      - generic [ref=e842]: 듀얼소닉
+                      - generic [ref=e843]: "[★W한정파격가 + 사은품증정★] [듀얼소닉] 프로페셔널 알파 완벽 두배..."
+                    - generic [ref=e844]:
+                      - generic [ref=e845]: 3,690,000
+                      - generic [ref=e846]: 7,410,000
+                      - generic [ref=e847]: 50%
+              - listitem [ref=e848]:
+                - link "[GP201TBK] 글램뮤즈 터치 플랫 (오리지널블랙) 판고데기 미용실매직기 글램팜 [GP201TBK] 글램뮤즈 터치 플랫 (오리지널블랙) 판고데기 미용실매직기 260,000" [ref=e849] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "[GP201TBK] 글램뮤즈 터치 플랫 (오리지널블랙) 판고데기 미용실매직기" [ref=e851]
+                  - generic [ref=e852]:
+                    - generic [ref=e853]:
+                      - generic [ref=e854]: 글램팜
+                      - generic [ref=e855]: "[GP201TBK] 글램뮤즈 터치 플랫 (오리지널블랙) 판고데기 미용실매직기"
+                    - generic [ref=e856]: 260,000
+              - listitem [ref=e858]:
+                - link "데이 롱 비비 크림 글로우 15G 레노덤 데이 롱 비비 크림 글로우 15G 42,000" [ref=e859] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "데이 롱 비비 크림 글로우 15G" [ref=e861]
+                  - generic [ref=e862]:
+                    - generic [ref=e863]:
+                      - generic [ref=e864]: 레노덤
+                      - generic [ref=e865]: 데이 롱 비비 크림 글로우 15G
+                    - generic [ref=e866]: 42,000
+              - listitem [ref=e868]:
+                - link "글리코릭 애시드 7％ 엑스폴리에이팅 토너 100ml 디오디너리 글리코릭 애시드 7％ 엑스폴리에이팅 토너 100ml 11,300" [ref=e869] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "글리코릭 애시드 7％ 엑스폴리에이팅 토너 100ml" [ref=e871]
+                  - generic [ref=e872]:
+                    - generic [ref=e873]:
+                      - generic [ref=e874]: 디오디너리
+                      - generic [ref=e875]: 글리코릭 애시드 7％ 엑스폴리에이팅 토너 100ml
+                    - generic [ref=e876]: 11,300
+              - listitem [ref=e878]:
+                - link "[태산 PICK]월넛크릭그린 오 드 퍼퓸 EDP 50ml 비비앙 [태산 PICK]월넛크릭그린 오 드 퍼퓸 EDP 50ml 80,872 150,000 46%" [ref=e879] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "[태산 PICK]월넛크릭그린 오 드 퍼퓸 EDP 50ml" [ref=e881]
+                  - generic [ref=e882]:
+                    - generic [ref=e883]:
+                      - generic [ref=e884]: 비비앙
+                      - generic [ref=e885]: "[태산 PICK]월넛크릭그린 오 드 퍼퓸 EDP 50ml"
+                    - generic [ref=e886]:
+                      - generic [ref=e887]: 80,872
+                      - generic [ref=e888]: 150,000
+                      - generic [ref=e889]: 46%
+              - listitem [ref=e890]:
+                - link "[듀오] 헤라 블랙 쿠션 파운데이션 15g*2개 (본품 +리필) 헤라 [듀오] 헤라 블랙 쿠션 파운데이션 15g*2개 (본품 +리필) 59,755 74,000 19%" [ref=e891] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - img "[듀오] 헤라 블랙 쿠션 파운데이션 15g*2개 (본품 +리필)" [ref=e893]
+                  - generic [ref=e894]:
+                    - generic [ref=e895]:
+                      - generic [ref=e896]: 헤라
+                      - generic [ref=e897]: "[듀오] 헤라 블랙 쿠션 파운데이션 15g*2개 (본품 +리필)"
+                    - generic [ref=e898]:
+                      - generic [ref=e899]: 59,755
+                      - generic [ref=e900]: 74,000
+                      - generic [ref=e901]: 19%
+              - listitem [ref=e902]:
+                - link [ref=e903] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e906]:
+                    - generic [ref=e907]:
+                      - generic [ref=e908]: 듀얼소닉
+                      - generic [ref=e909]: "[듀얼소닉] 맥시멈 무한샷 뷰티디바이스 화이트 + ★단독기획전 사은품증..."
+                    - generic [ref=e910]:
+                      - generic [ref=e911]: 1,020,000
+                      - generic [ref=e912]: 1,470,000
+                      - generic [ref=e913]: 30%
+              - listitem [ref=e914]:
+                - link [ref=e915] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e918]:
+                    - generic [ref=e919]:
+                      - generic [ref=e920]: 자빈드서울
+                      - generic [ref=e921]: 윙크 파운데이션 팩트 리필 15g
+                    - generic [ref=e922]:
+                      - generic [ref=e923]: 13,270
+                      - generic [ref=e924]: 18,000
+                      - generic [ref=e925]: 26%
+              - listitem [ref=e926]:
+                - link [ref=e927] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e930]:
+                    - generic [ref=e931]:
+                      - generic [ref=e932]: 베베앙
+                      - generic [ref=e933]: 베베앙 K8 82gsm 프리미엄 엠보싱 물티슈 캡형 70매 20팩
+                    - generic [ref=e934]:
+                      - generic [ref=e935]: 18,900
+                      - generic [ref=e936]: 79,800
+                      - generic [ref=e937]: 76%
+              - listitem [ref=e938]:
+                - link [ref=e939] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e942]:
+                    - generic [ref=e943]:
+                      - generic [ref=e944]: 이오시카
+                      - generic [ref=e945]: IPL 제모의료기기 SIPL-2000 Plus (100만회)
+                    - generic [ref=e946]:
+                      - generic [ref=e947]: 167,200
+                      - generic [ref=e948]: 350,000
+                      - generic [ref=e949]: 52%
+              - listitem [ref=e950]:
+                - link [ref=e951] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e954]:
+                    - generic [ref=e955]:
+                      - generic [ref=e956]: 오프라
+                      - generic [ref=e957]: "[NO.1광채] 미니 하이라이터 (+브러쉬 듀오 2종 증정)"
+                    - generic [ref=e958]:
+                      - generic [ref=e959]: 24,624
+                      - generic [ref=e960]: 36,000
+                      - generic [ref=e961]: 31%
+              - listitem [ref=e962]:
+                - link [ref=e963] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e966]:
+                    - generic [ref=e967]:
+                      - generic [ref=e968]: 아헤브
+                      - generic [ref=e969]: "[불고데 대체템] 올데이 컬링스틱"
+                    - generic [ref=e970]:
+                      - generic [ref=e971]: 31,734
+                      - generic [ref=e972]: 120,000
+                      - generic [ref=e973]: 73%
+              - listitem [ref=e974]:
+                - link [ref=e975] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e978]:
+                    - generic [ref=e979]:
+                      - generic [ref=e980]: 차홍
+                      - generic [ref=e981]: 에어 스타일러 2.0 대승령
+                    - generic [ref=e982]: 164,000
+              - listitem [ref=e984]:
+                - link [ref=e985] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e988]:
+                    - generic [ref=e989]:
+                      - generic [ref=e990]: 피캄
+                      - generic [ref=e991]: 서인영 디바이스 클리어프로(+PDRN 블루캡슐 세럼 10ml*2ea 증정)
+                    - generic [ref=e992]:
+                      - generic [ref=e993]: 135,200
+                      - generic [ref=e994]: 330,000
+                      - generic [ref=e995]: 59%
+              - listitem [ref=e996]:
+                - link [ref=e997] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1000]:
+                    - generic [ref=e1001]:
+                      - generic [ref=e1002]: 어바웃톤
+                      - generic [ref=e1003]: 스킨 레이어 핏 파운데이션 (8colors)
+                    - generic [ref=e1004]:
+                      - generic [ref=e1005]: 17,600
+                      - generic [ref=e1006]: 28,000
+                      - generic [ref=e1007]: 37%
+              - listitem [ref=e1008]:
+                - link [ref=e1009] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1012]:
+                    - generic [ref=e1013]:
+                      - generic [ref=e1014]: 글램팜
+                      - generic [ref=e1015]: "[GP501TBK] 글램뮤즈 터치 플랫 와이드 (오리지널블랙) 특대 매직고데기"
+                    - generic [ref=e1016]: 260,000
+              - listitem [ref=e1018]:
+                - link [ref=e1019] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1022]:
+                    - generic [ref=e1023]:
+                      - generic [ref=e1024]: 듀얼소닉
+                      - generic [ref=e1025]: "[★ W한정파격가 + 사은품만 42만원★] [프리미엄] 듀얼소닉 프로페셔널 ..."
+                    - generic [ref=e1026]:
+                      - generic [ref=e1027]: 1,325,000
+                      - generic [ref=e1028]: 2,650,000
+                      - generic [ref=e1029]: 50%
+              - listitem [ref=e1030]:
+                - link [ref=e1031] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1034]:
+                    - generic [ref=e1035]:
+                      - generic [ref=e1036]: 이오시카
+                      - generic [ref=e1037]: IPL 제모의료기기 SIPL-2000 (20만회)
+                    - generic [ref=e1038]:
+                      - generic [ref=e1039]: 103,200
+                      - generic [ref=e1040]: 225,000
+                      - generic [ref=e1041]: 54%
+              - listitem [ref=e1042]:
+                - link [ref=e1043] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1046]:
+                    - generic [ref=e1047]:
+                      - generic [ref=e1048]: 듀얼소닉
+                      - generic [ref=e1049]: "[★W한정파격가 + 사은품증정★] [듀얼소닉] 프로페셔널 알파 완벽 두배..."
+                    - generic [ref=e1050]:
+                      - generic [ref=e1051]: 3,690,000
+                      - generic [ref=e1052]: 7,410,000
+                      - generic [ref=e1053]: 50%
+              - listitem [ref=e1054]:
+                - link [ref=e1055] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1058]:
+                    - generic [ref=e1059]:
+                      - generic [ref=e1060]: 글램팜
+                      - generic [ref=e1061]: "[GP201TBK] 글램뮤즈 터치 플랫 (오리지널블랙) 판고데기 미용실매직기"
+                    - generic [ref=e1062]: 260,000
+              - listitem [ref=e1064]:
+                - link [ref=e1065] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1068]:
+                    - generic [ref=e1069]:
+                      - generic [ref=e1070]: 레노덤
+                      - generic [ref=e1071]: 데이 롱 비비 크림 글로우 15G
+                    - generic [ref=e1072]: 42,000
+              - listitem [ref=e1074]:
+                - link [ref=e1075] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1078]:
+                    - generic [ref=e1079]:
+                      - generic [ref=e1080]: 디오디너리
+                      - generic [ref=e1081]: 글리코릭 애시드 7％ 엑스폴리에이팅 토너 100ml
+                    - generic [ref=e1082]: 11,300
+              - listitem [ref=e1084]:
+                - link [ref=e1085] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1088]:
+                    - generic [ref=e1089]:
+                      - generic [ref=e1090]: 비비앙
+                      - generic [ref=e1091]: "[태산 PICK]월넛크릭그린 오 드 퍼퓸 EDP 50ml"
+                    - generic [ref=e1092]:
+                      - generic [ref=e1093]: 80,872
+                      - generic [ref=e1094]: 150,000
+                      - generic [ref=e1095]: 46%
+              - listitem [ref=e1096]:
+                - link [ref=e1097] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1100]:
+                    - generic [ref=e1101]:
+                      - generic [ref=e1102]: 헤라
+                      - generic [ref=e1103]: "[듀오] 헤라 블랙 쿠션 파운데이션 15g*2개 (본품 +리필)"
+                    - generic [ref=e1104]:
+                      - generic [ref=e1105]: 59,755
+                      - generic [ref=e1106]: 74,000
+                      - generic [ref=e1107]: 19%
+              - listitem [ref=e1108]:
+                - link [ref=e1109] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e1112]:
+                    - generic [ref=e1113]:
+                      - generic [ref=e1114]: 듀얼소닉
+                      - generic [ref=e1115]: "[듀얼소닉] 맥시멈 무한샷 뷰티디바이스 화이트 + ★단독기획전 사은품증..."
+                    - generic [ref=e1116]:
+                      - generic [ref=e1117]: 1,020,000
+                      - generic [ref=e1118]: 1,470,000
+                      - generic [ref=e1119]: 30%
+            - generic [ref=e1120]:
+              - link "이전" [disabled] [ref=e1121] [cursor=pointer]:
+                - /url: "#"
+              - link "다음" [disabled] [ref=e1122] [cursor=pointer]:
+                - /url: "#"
+      - list [ref=e1123]:
+        - listitem [ref=e1124] [cursor=pointer]:
+          - generic [ref=e1125]: DETAIL
+        - listitem [ref=e1126]:
+          - generic [ref=e1127]:
+            - text: REVIEW
+            - emphasis
+        - listitem [ref=e1128] [cursor=pointer]:
+          - generic [ref=e1129]:
+            - text: Q&A
+            - emphasis
+        - listitem [ref=e1130] [cursor=pointer]:
+          - generic [ref=e1131]: RETURN & DELIVERY
+      - generic [ref=e1133]:
+        - heading [level=4] [ref=e1135]:
+          - text: 구매 리뷰
+          - button "운영 정책" [ref=e1136] [cursor=pointer]
+        - list [ref=e1137]:
+          - listitem [ref=e1138]:
+            - button "최신순" [ref=e1139] [cursor=pointer]
+          - listitem [ref=e1140]:
+            - button "평점 높은순" [ref=e1141] [cursor=pointer]
+          - listitem [ref=e1142]:
+            - button "평점 낮은순" [ref=e1143] [cursor=pointer]
+          - listitem [ref=e1144]:
+            - button "추천순" [ref=e1145] [cursor=pointer]
+            - generic [ref=e1146]: 추천순
+        - generic [ref=e1149]:
+          - table [ref=e1150]:
+            - rowgroup [ref=e1154]:
+              - row [ref=e1155]:
+                - cell [ref=e1156]:
+                  - text: 첫 리뷰어가 되어 보세요!추가 포인트 적립해 드려요.
+                  - link "리뷰 작성하러 가기" [ref=e1157] [cursor=pointer]:
+                    - /url: /MyPage
+          - list
+      - list [ref=e1158]:
+        - listitem [ref=e1159] [cursor=pointer]:
+          - generic [ref=e1160]: DETAIL
+        - listitem [ref=e1161] [cursor=pointer]:
+          - generic [ref=e1162]:
+            - text: REVIEW
+            - emphasis
+        - listitem [ref=e1163]:
+          - generic [ref=e1164]:
+            - text: Q&A
+            - emphasis
+        - listitem [ref=e1165] [cursor=pointer]:
+          - generic [ref=e1166]: RETURN & DELIVERY
+      - button "상품문의" [ref=e1169] [cursor=pointer]
+      - list [ref=e1170]:
+        - listitem [ref=e1171] [cursor=pointer]:
+          - generic [ref=e1172]: DETAIL
+        - listitem [ref=e1173] [cursor=pointer]:
+          - generic [ref=e1174]:
+            - text: REVIEW
+            - emphasis
+        - listitem [ref=e1175] [cursor=pointer]:
+          - generic [ref=e1176]:
+            - text: Q&A
+            - emphasis
+        - listitem [ref=e1177]:
+          - generic [ref=e1178]: RETURN & DELIVERY
+      - generic [ref=e1179]:
+        - generic [ref=e1180]:
+          - heading "배송/교환/반품/AS 관련 유의사항" [level=5] [ref=e1181]
+          - paragraph [ref=e1182]: 상품상세설명에 배송/교환/반품/취소 관련 안내가 기재된 경우 다음 안내사항보다 우선 적용됩니다.
+        - table [ref=e1183]:
+          - rowgroup [ref=e1187]:
+            - row [ref=e1188]:
+              - rowheader "배송정보" [ref=e1189]
+              - cell [ref=e1190]:
+                - list [ref=e1191]:
+                  - listitem [ref=e1192]: 상품별로 상품 특성 및 배송지에 따라 배송유형 및 소요기간이 달라집니다.
+                  - listitem [ref=e1193]: 일부 주문상품 또는 예약상품의 경우 기본 배송일 외에 추가 배송 소요일이 발생될 수 있습니다.
+                  - listitem [ref=e1194]: 동일 브랜드의 상품이라도 상품별 출고일시가 달라 각각 배송될 수 있습니다.
+                  - listitem [ref=e1195]: 제주 및 도서산간 지역은 출고, 반품, 교환시 추가 배송비(항공, 도선료)가 부과 될 수 있습니다.
+                  - listitem [ref=e1196]: 상품의 배송비는 공급업체의 정책에 따라 다르오며 공휴일 및 휴일은 배송이 불가합니다.
+            - row [ref=e1197]:
+              - rowheader "취소/반품/교환 안내" [ref=e1198]
+              - cell [ref=e1199]:
+                - list [ref=e1200]:
+                  - listitem [ref=e1201]: "회수지 정보 : 서울특별시 강남구 압구정로48길 35 (신사동) 투구빌딩 5층 LA KOSMO(라 코스모)"
+                  - listitem [ref=e1202]: "반품 배송비 (편도) : 3,350원 (최초 배송비가 무료배송인 경우 3,350원 부과)"
+                  - listitem [ref=e1203]: "교환 배송비 (왕복) : 3,350원"
+                  - listitem [ref=e1204]: 상품하자 이외 사이즈, 색상교환 등 단순 변심에 의한 교환/반품 택배비 고객부담으로 왕복택배비가 발생합니다. (전자상거래 등에서의 소비자보호에 관한 법률 제18조(청약 철회등)9항에 의거 소비자의 사정에 의한 청약 철회 시 택배비는 소비자 부담입니다.)
+                  - listitem [ref=e1205]: 동일 브랜드의 상품이라도 교환/반품 회수지가 다를 수 있습니다. 상품상세 정보 또는 회수지 정보를 확인하신 후 반드시 지정된 회수지로 보내주세요.
+                  - listitem [ref=e1206]: 상품을 지정된 회수지가 아닌곳으로 보내실 경우 택배 분실 또는 재발송에 따른 추가 비용이 발생할 수 있습니다.
+                  - listitem [ref=e1207]: 고객센터나 "My Page>주문취소/교환/반품 신청"을 통한 교환/반품 접수 없이 상품을 회수지로 보내실 경우 재발송에 따른 추가 비용이 발생할 수 있으며 경우에 따라서는 교환/반품이 어려울 수 있습니다.
+                  - listitem [ref=e1208]: 고객님이 받으신 상품의 내용이 표시 광고 및 계약 내용과 다른 경우 상품을 수령하신 날로부터 3개월 이내 또는 그 사실을 안 날(알 수 있었던 날) 부터 30일 이내 신청이 가능합니다.
+                  - listitem [ref=e1209]: 결제완료 직후 즉시 주문취소는 "MY Page> 취소/교환/반품 신청"에서 직접 처리 가능합니다.
+                  - listitem [ref=e1210]: 주문완료 후 재고 부족 등으로 인해 주문 취소 처리가 될 수도 있는 점 양해 부탁드립니다.
+                  - listitem [ref=e1211]: 주문상태가 상품준비중인 경우 취소신청이 가능하며 판매자의 승인 여부(이미 배송을 했거나 포장을 완료한 경우)에 따라 취소가 불가능할 수 있습니다.
+                  - listitem [ref=e1212]: 교환 신청은 최초 1회에 한하며, 교환 배송 완료 후에는 추가 교환 신청은 불가합니다.
+                  - listitem [ref=e1213]: 반품/교환은 미사용 제품에 한해 배송완료 후 7일 이내 접수하여 주십시오.
+                  - listitem [ref=e1214]: 임의반품은 불가하오니 반드시 고객센터나 "MY Page> 주문취소/교환/반품 신청"을 통해서 신청접수를 하시기 바랍니다.
+                  - listitem [ref=e1215]: 상품하자, 오배송의 경우 택배비 무료로 교환/반품이 가능하지만 모니터의 색상차이, 착용감, 사이즈의 개인의 선호도는 상품의 하자 사유가 아닙니다.
+                  - listitem [ref=e1216]: 고객 부주의로 상품이 훼손, 변경된 경우 반품 / 교환이 불가능 합니다.
+                  - listitem [ref=e1217]: 취소/반품 대금환불이 지연 시 전자상거래법에 의거하여 환불지연 배상처리 절차가 진행됩니다.
+            - row [ref=e1218]:
+              - rowheader "반품/교환 불가능한 경우" [ref=e1219]
+              - cell [ref=e1220]:
+                - list [ref=e1221]:
+                  - listitem [ref=e1222]: 제품을 사용 또는 훼손한 경우, 사은품 누락, 상품 TAG, 보증서, 상품 부자재가 제거 혹은 분실된 경우
+                  - listitem [ref=e1223]: 밀봉포장을 개봉했거나 내부 포장재를 훼손 또는 분실한 경우(단, 제품확인을 위한 개봉 제외)
+                  - listitem [ref=e1224]: 시간이 경과되어 재판매가 어려울 정도로 상품가치가 상실된 경우
+                  - listitem [ref=e1225]: 고객님의 요청에 따라 주문 제작되어 고객님 외에 사용이 어려운 경우
+                  - listitem [ref=e1226]: 배송된 상품이 설치가 완료된 경우(가전, 가구 등)
+                  - listitem [ref=e1227]: 신선식품(냉장/냉동 포함) 상품을 단순 변심으로 교환/반품 신청하는 경우
+                  - listitem [ref=e1228]: 기타 전자상거래 등에서의 소비자보호에 관한 법률이 정하는 청약철회 제한사유에 해당하는 경우
+            - row [ref=e1229]:
+              - rowheader "A/S 안내" [ref=e1230]
+              - cell [ref=e1231]:
+                - list [ref=e1232]:
+                  - listitem [ref=e1233]: A/S 기준이나 가능여부는 브랜드와 상품에 따라 다르므로 관련 문의는 더블유컨셉 고객센터를 통해 부탁드립니다.
+                  - listitem [ref=e1234]: 상품불량에 의한 반품, 교환, A/S, 환불, 품질보증 및 피해보상 등에 관한 사항은 소비자분쟁해결기준(공정거래위원회 고시)에 따라 받으실 수 있습니다.
+  - contentinfo [ref=e1235]:
+    - generic [ref=e1236]:
+      - button [ref=e1238] [cursor=pointer]
+      - generic [ref=e1239]:
+        - generic [ref=e1240]:
+          - navigation [ref=e1241]:
+            - generic [ref=e1242]:
+              - list [ref=e1243]:
+                - listitem [ref=e1244]:
+                  - link "회사소개" [ref=e1245] [cursor=pointer]:
+                    - /url: /Etc/Company
+                - listitem [ref=e1246]:
+                  - link "입점상담" [ref=e1247] [cursor=pointer]:
+                    - /url: /Etc/eBuyer
+                - listitem [ref=e1248]:
+                  - link "제휴문의" [ref=e1249] [cursor=pointer]:
+                    - /url: /Etc/Marketting
+                - listitem [ref=e1250]:
+                  - link "광고안내" [ref=e1251] [cursor=pointer]:
+                    - /url: https://ads.wconcept.co.kr/
+                - listitem [ref=e1252]:
+                  - link "파트너라운지" [ref=e1253] [cursor=pointer]:
+                    - /url: https://wconceptpartner.co.kr/
+                - listitem [ref=e1254]:
+                  - link "채용정보" [ref=e1255] [cursor=pointer]:
+                    - /url: /Etc/Incruit
+                - listitem [ref=e1256]:
+                  - link "GLOBAL" [ref=e1257] [cursor=pointer]:
+                    - /url: https://www.wconcept.com/
+              - list [ref=e1258]:
+                - listitem [ref=e1259]:
+                  - link "공지사항" [ref=e1260] [cursor=pointer]:
+                    - /url: /CustomerCenter/News
+                - listitem [ref=e1261]:
+                  - link "이용약관" [ref=e1262] [cursor=pointer]:
+                    - /url: /CustomerAgreement
+                - listitem [ref=e1263]:
+                  - link "개인정보처리방침" [ref=e1264] [cursor=pointer]:
+                    - /url: /CustomerPrivacy
+            - generic [ref=e1265]:
+              - paragraph [ref=e1266]:
+                - link "고객센터 1566-5027 (09:00~18:00)" [ref=e1267] [cursor=pointer]:
+                  - /url: /CustomerCenter/
+                  - generic [ref=e1268]: 고객센터
+                  - strong [ref=e1269]:
+                    - text: 1566-5027
+                    - emphasis [ref=e1270]: (09:00~18:00)
+              - button [ref=e1272] [cursor=pointer]:
+                - figure [ref=e1273]: INSTAGRAM
+          - generic [ref=e1274]:
+            - generic [ref=e1275]:
+              - heading "㈜더블유컨셉코리아" [level=3] [ref=e1276]
+              - list [ref=e1277]:
+                - listitem [ref=e1278]:
+                  - generic [ref=e1279]: "대표자 : 이지은"
+                  - generic [ref=e1280]: "주소 : 서울특별시 영등포구 영신로34길 30, 1~2층 (영등포동, KB영등포타워)"
+                  - generic [ref=e1281]: "사업자등록번호 : 211-88-19183"
+                - listitem [ref=e1282]:
+                  - generic [ref=e1283]:
+                    - text: "통신판매업신고 : 제2025-서울영등포-0492호"
+                    - link "사업자정보확인" [ref=e1284] [cursor=pointer]:
+                      - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2118819183&apv_perm_no=
+                  - generic [ref=e1285]: "개인정보보호책임자 : 허선희"
+                  - generic [ref=e1286]: "호스팅서비스 : ㈜더블유컨셉코리아"
+                - listitem [ref=e1287]:
+                  - generic [ref=e1288]:
+                    - text: "고객센터 :"
+                    - link "1566-5027" [ref=e1289] [cursor=pointer]:
+                      - /url: /CustomerCenter/
+                  - generic [ref=e1290]: "이메일 : cs_help@wconcept.co.kr"
+                  - generic [ref=e1291]: "운영시간 : 평일 09:00~18:00 (점심시간 : 12:30~13:30)"
+                - listitem [ref=e1292]:
+                  - generic [ref=e1293]: COPYRIGHT ⓒ ㈜더블유컨셉코리아 ALL RIGHTS RESERVED.
+            - generic [ref=e1294]:
+              - heading "소비자피해보상보험" [level=3] [ref=e1295]
+              - list [ref=e1296]:
+                - listitem [ref=e1297]:
+                  - generic [ref=e1298]: 고객님은 안전거래를 위해 현금 결제 시, Wconcept 에서 가입한 소비자피해보상보험 서비스를 이용하실 수 있습니다.
+                - listitem [ref=e1299]:
+                  - generic [ref=e1300]:
+                    - text: "보상대상 : 미배송/반품, 환불거부/쇼핑몰부도"
+                    - link "서비스 가입사실 확인" [ref=e1301] [cursor=pointer]:
+                      - /url: //display.wconcept.co.kr/rn/escrow
+        - generic [ref=e1302]: (주)더블유컨셉코리아는 W컨셉에 입점한 개별 판매자가 판매하는 상품에 대해서는 통신판매중개자로서 통신판매의 당사자가 아니며, 입점 판매자가 등록한 상품정보 및 거래 등에 대해 책임을 지지 않습니다. 개별 상품 페이지 등에서 해당 판매자 정보를 확인하시기 바랍니다.
+  - iframe
+  - iframe

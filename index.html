@@ -4,18 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HWAN | 포트폴리오</title>
+  <meta name="description" content="HWAN의 포트폴리오 사이트입니다." />
 
-  <!-- ================================================
-       SEO: 검색엔진이 이 페이지를 인식하는 데 사용됩니다
-       ================================================ -->
-  <title>최용환 | 포트폴리오</title>
-  <meta name="description" content="최용환의 포트폴리오 사이트입니다." />
-
-  <!-- Google Fonts: 무료 폰트 불러오기 -->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Pretendard Font -->
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
   <!-- 스타일 파일 연결 -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=17" />
 </head>
 
 <body>
@@ -25,337 +21,270 @@
        ================================================ -->
   <nav id="navbar">
     <div class="nav-inner">
-      <!-- 왼쪽: 내 이름 로고 -->
-      <a class="nav-logo" href="#home">Choi Yonghwan</a>
-
-      <!-- 오른쪽: 메뉴 링크들 -->
+      <a class="nav-logo" href="#cover">HWAN</a>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#cover">COVER</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#works">WORKS</a></li>
       </ul>
     </div>
   </nav>
 
+  <!-- ================================================
+       📜 전체 스크롤 컨테이너 (Scroll Snap)
+       ================================================ -->
+  <main class="scroll-container">
+
+    <!-- 1. COVER 페이지 -->
+    <section id="cover" class="section-slide bg-primary">
+      <div class="content-wrapper">
+        <h1 class="title">VISUAL DESIGNER<br>&amp; AI CREATOR</h1>
+        <p class="subtitle">10년 이상의 인쇄·편집 디자인 경험을 바탕으로 탄탄한 기본기를 갖춘,<br>데이터와 AI를 활용해 가능성을 넓혀가는 디자이너 HWAN입니다.</p>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT 페이지 -->
+    <section id="about" class="section-slide bg-secondary">
+      <div class="content-wrapper">
+        <div class="about-layout">
+
+          <div class="about-text-box">
+            <h2>ABOUT</h2>
+            <p>
+              안녕하세요. 사보, 홍보물, MICE 키비주얼 등 다양한 인쇄 매체를 기획·제작해 온 편집디자이너 입니다.<br>
+              장기간 쌓아온 실무경험으로 안정적인 디자인 솔루션을 제공합니다.
+            </p>
+            <p>
+              전통적인 편집디자이너에 머무르지 않고 데이터 수집·시각화 역량과 AI 툴 활용 능력을 결합하여,<br>
+              기획의 논리를 더하고 작업 생산성을 극대화하는 스마트한 워크플로우를 구축해 나가고 있습니다.
+            </p>
+            <ul class="contact-info">
+              <li>Email: choiyh040@gmail.com</li>
+              <li>Github: github.com/choiyh040-bit</li>
+            </ul>
+            <p style="margin-top: 15px;">
+              <a href="#" class="resume-link zoomable" data-detail="images/resume.jpg">이력서 보기</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. WORKS 페이지 -->
+    <section id="works" class="section-slide bg-primary">
+      <div class="content-wrapper">
+        <h2>WORKS</h2>
+        <div class="works-grid">
+          <!-- Work 1 -->
+          <div class="work-item">
+            <a href="https://www.wconcept.co.kr/Product/308912860?entry_channel=search&search_menu=direct&rccode=pc_search" target="_blank" rel="noreferrer noopener">
+              <img src="images/wconcept_main.jpg" alt="라 코스모 버튼 램 스웨이드 자켓" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+1'" />
+            </a>
+            <div class="work-info">
+              <h3>W컨셉 상품페이지 (LA COSMO)</h3>
+              <p>웹디자인 / 쇼핑몰 상세페이지 다수</p>
+            </div>
+          </div>
+          <!-- Work 2 -->
+          <div class="work-item">
+            <a href="https://smartstore.naver.com/puryn/products/13670767014" target="_blank" rel="noreferrer noopener">
+              <img src="images/puryn_main.jpg" alt="퓨린이 스트라이프 원피스" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+2'" />
+            </a>
+            <div class="work-info">
+              <h3>퓨린이 여성의류 상세페이지</h3>
+              <p>웹디자인 / 스마트스토어 상세페이지 다수</p>
+            </div>
+          </div>
+          <!-- Work 3 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/kme_conference.jpg, images/kme_mice_wave.jpg, images/kme_open_session.jpg">
+              <img src="images/kme_mice_wave_c.jpg" alt="KME 행사 디자인" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+3'" />
+            </a>
+            <div class="work-info">
+              <h3>KME 행사 내 세션 비주얼 디자인</h3>
+              <p>디자인 / 배리에이션, 기획</p>
+            </div>
+          </div>
+          <!-- Work 4 -->
+          <div class="work-item">
+            <a href="https://www.instagram.com/reel/DOXCudIErOz/?igsi=MWdlcmtjanVvdWl3NQ==" target="_blank" rel="noreferrer noopener">
+              <img src="images/instagram_main.png" alt="인스타그램 릴스 영상" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+4'" />
+            </a>
+            <div class="work-info">
+              <h3>인스타그램 쇼츠/릴스 콘텐츠</h3>
+              <p>AI 영상 생성 / 비디오 편집</p>
+            </div>
+          </div>
+          <!-- Work 5 -->
+          <div class="work-item">
+            <a href="https://www.instagram.com/p/DO9kihpk4HU/?igsi=MThqaDV6b3VrMG40ag==" target="_blank" rel="noreferrer noopener">
+              <img src="images/instagram_main_2.png" alt="인스타그램 피드 콘텐츠" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+5'" />
+            </a>
+            <div class="work-info">
+              <h3>인스타그램 피드 콘텐츠</h3>
+              <p>피드 제작</p>
+            </div>
+          </div>
+          <!-- Work 6 -->
+          <div class="work-item">
+            <a href="https://www.tiktok.com/@stroller2222?_r=1&_t=ZS-99BM39yJwUK" target="_blank" rel="noreferrer noopener">
+              <img src="images/tiktok.png" alt="개인 틱톡 페이지" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+6'" />
+            </a>
+            <div class="work-info">
+              <h3>개인 틱톡페이지 운영</h3>
+              <p>영상 기획 및 제작</p>
+            </div>
+          </div>
+          <!-- Work 7 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/boots_1.jpg, images/boots_2.jpg" data-width="1200px">
+              <img src="images/boots_c.jpg" alt="Boots 홍보용 리플렛" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+7'" />
+            </a>
+            <div class="work-info">
+              <h3>Boots 홍보용 3단 리플렛</h3>
+              <p>편집디자인 / 인쇄물 기획</p>
+            </div>
+          </div>
+          <!-- Work 8 -->
+          <div class="work-item">
+            <a href="javascript:void(0);">
+              <img src="images/wine_review_c.jpg?v=3" data-detail="images/wine_review_27.jpg?v=3" alt="와인리뷰 매거진" class="zoomable" data-width="44vw" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+8'" />
+            </a>
+            <div class="work-info">
+              <h3>와인리뷰 </h3>
+              <p>편집디자인 / 와인리뷰 21년 230호 레이아웃</p>
+            </div>
+          </div>
+          <!-- Work 9 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/wine_review_20_0.jpg?v=2, images/wine_review_20_1.jpg?v=2, images/wine_review_20_2.jpg?v=2" data-width="44vw">
+              <img src="images/wine_review_20_cc.jpg?v=2" alt="월간가격 매거진" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+9'" />
+            </a>
+            <div class="work-info">
+              <h3>월간가격</h3>
+              <p>편집디자인 / 월간가격 18년 10월호 레이아웃</p>
+            </div>
+          </div>
+          <!-- Work 10 -->
+          <div class="work-item">
+            <a href="mice_2025.html" class="iframe-trigger">
+              <img src="images/mice_2025_c.jpg" alt="2025 MICE 글로벌전문가 발대식" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+10'" />
+            </a>
+            <div class="work-info">
+              <h3>2025 MICE 글로벌전문가 발대식</h3>
+              <p>키비주얼 기획 및 디자인</p>
+            </div>
+          </div>
+          <!-- Work 11 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/everyday_1.jpg, images/everyday_2.jpg, images/everyday_3.jpg, images/everyday_4.jpg, images/everyday_5.jpg" data-width="44vw">
+              <img src="images/everyday_c.jpg" alt="이마트에브리데이 E클럽 카탈로그" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+11'" />
+            </a>
+            <div class="work-info">
+              <h3>이마트에브리데이 E클럽 카탈로그</h3>
+              <p>편집디자인 및 기획</p>
+            </div>
+          </div>
+          <!-- Work 12 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/moher_1.jpg">
+              <img src="images/moher_c.png" alt="모헤르댄스컴퍼니 커피차 현수막" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+12'" />
+            </a>
+            <div class="work-info">
+              <h3>모헤르댄스컴퍼니</h3>
+              <p>커피차 홍보물 디자인</p>
+            </div>
+          </div>
+          <!-- Work 13 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/wca2026_1.png, images/wca2026_2.png, images/wca2026_3.png, images/wca2026_4.png, images/wca2026_5.png, images/wca2026_6.png, images/wca2026_7.png">
+              <img src="images/wca2026_c.png" alt="WCA 2026 시각물 디자인" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+13'" />
+            </a>
+            <div class="work-info">
+              <h3>WCA 2026 홍보물 디자인</h3>
+              <p>배너, 사인보드 등 오프라인 시각물 세트</p>
+            </div>
+          </div>
+          <!-- Work 14 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/def2021_1.jpg, images/def2021_2.jpg, images/def2021_3.jpg">
+              <img src="images/def2021_c.jpg" alt="디지털 이코노미 포럼" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+14'" />
+            </a>
+            <div class="work-info">
+              <h3>행사 키비주얼 시안</h3>
+              <p>키비주얼 및 홍보물 디자인 시안</p>
+            </div>
+          </div>
+          <!-- Work 15 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/tasty_c.png, images/tasty_1.png?v=2, images/tasty_2.png?v=2, images/tasty_3.png?v=2, images/tasty_4.png?v=2" data-width="44vw">
+              <img src="images/tasty_c.png" alt="이마트 TASTY TOUR 100 안내책자" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+15'" />
+            </a>
+            <div class="work-info">
+              <h3>이마트 TASTY TOUR 100 안내책자</h3>
+              <p>안내책자 편집디자인 및 기획</p>
+            </div>
+          </div>
+          <!-- Work 16 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/mirae_1.png?v=2, images/mirae_2.png?v=2" data-width="44vw">
+              <img src="images/mirae_c.png" alt="미래제약 제품 카탈로그" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+16'" />
+            </a>
+            <div class="work-info">
+              <h3>미래제약 카탈로그</h3>
+              <p>제품 안내책자 기획 및 디자인</p>
+            </div>
+          </div>
+          <!-- Work 17 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/nonghyup_c.png?v=4, images/nonghyup_1.png?v=4, images/nonghyup_2.png?v=4, images/nonghyup_3.png?v=4" data-width="44vw">
+              <img src="images/nonghyup_c_new.png" alt="신도농협 소식지" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+17'" />
+            </a>
+            <div class="work-info">
+              <h3>신도농협 소식지</h3>
+              <p>소식지 편집디자인 및 기획</p>
+            </div>
+          </div>
+          <!-- Work 18 -->
+          <div class="work-item">
+            <a href="#" class="gallery-trigger" data-gallery="images/lotte_1.jpg, images/lotte_2.jpg">
+              <img src="images/lotte_c.png" alt="롯데백화점 청량리점 홍보물" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+18'" />
+            </a>
+            <div class="work-info">
+              <h3>롯데백화점 청량리점 홍보물</h3>
+              <p>홍보물 편집디자인 및 기획</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <!-- ================================================
-       🏠 Hero 섹션: 첫 화면에 보이는 메인 소개
+       🔍 이미지 확대 모달 (Modal)
        ================================================ -->
-  <section id="home" class="hero">
-
-    <!-- 프로필 이미지 영역
-         ✏️ [수정] src="images/profile.jpg" 경로의 이미지를 바꾸면 됩니다.
-         이미지 파일을 'images' 폴더에 넣고 파일명을 맞춰주세요. -->
-    <div class="hero-img-wrap">
-      <img
-        src="images/profile.jpg"
-        alt="프로필 사진"
-        class="hero-img"
-        onerror="this.src='https://placehold.co/200x200/5c6bc0/ffffff?text=Photo'"
-      />
-      <!-- onerror: 이미지가 없으면 임시 이미지를 보여줍니다 (개발 편의용) -->
+  <div id="imageModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <div id="modalContentWrapper" style="display:flex; justify-content:center; align-items:flex-start; width:100%; min-height:100%;">
+      <img class="modal-content" id="modalImg" style="display:none;">
+      <div id="galleryWrapper" style="display:none; flex-direction:column; gap:20px; width:90%; max-width:800px; padding:20px 0; margin-bottom: 50px;">
+        <!-- Images injected here -->
+      </div>
+      <iframe id="modalIframe" style="display:none; width:90%; max-width:1000px; height:85vh; border:none; border-radius:10px; margin-top:2vh; box-shadow: 0 20px 50px rgba(0,0,0,0.2); background: white;"></iframe>
     </div>
-
-    <!-- 소개 텍스트 영역 -->
-    <div class="hero-text">
-      <!-- ✏️ [수정] 이름, 직함, 소개 문구를 바꾸세요 -->
-      <p class="hero-sub">안녕하세요</p>
-      <h1 class="hero-title">저는 <span class="highlight">최용환</span>입니다</h1>
-      <p class="hero-desc">
-        디자인 전문성에 데이터와 기술을 더하여<br/>
-        고객이 만족할 수 있는 시각 솔루션을 구축해가고 있습니다.
-      </p>
-
-      <!-- 버튼 링크들 -->
-      <div class="hero-btns">
-        <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
-        <a href="#contact" class="btn btn-outline">연락하기</a>
-      </div>
-    </div>
-  </section>
-
+  </div>
 
   <!-- ================================================
-       👤 About Me 섹션
+       ★★★ 스크립트 영역 ★★★
        ================================================ -->
-  <section id="about" class="section">
-    <h2 class="section-title">About Me</h2>
-    <div class="about-grid">
-
-      <!-- 왼쪽: 소개 이미지 -->
-      <div class="about-img-wrap">
-        <!-- ✏️ [수정] images/about.jpg 를 원하는 이미지로 교체 -->
-        <img
-          src="images/about.jpg"
-          alt="소개 이미지"
-          class="about-img"
-          onerror="this.src='https://placehold.co/400x300/1a1a2e/5c6bc0?text=About+Me'"
-        />
-      </div>
-
-      <!-- 오른쪽: 소개 텍스트 -->
-      <div class="about-text">
-        <!-- ✏️ [수정] 본인 소개 내용으로 교체하세요 -->
-        <h3>데이터와 AI도 활용하는 10년차 편집 디자이너</h3>
-        <p>
-	안녕하세요. 
-	사보, 홍보물, MICE 키비주얼 등 다양한 인쇄 매체를 기획·제작해 온 편집디자이너 입니다. 
-	장기간 쌓아온 실무경험으로 안정적인 디자인 솔루션을 제공합니다.
-        </p>
-        <p>
-	전통적인 편집디자이너에 머무르지 않고 데이터 수집·시각화 역량과 AI 툴 활용 능력을 결합하여, 
-	기획의 논리를 더하고 작업 생산성을 극대화하는 스마트한 워크플로우를 구축해 나가고 있습니다.
-        </p>
-        <p>
-	매체또한 인쇄 디자인의 틀을 넘어 상세페이지, SNS 콘텐츠 등 웹 기반의 커머스 디자인까지 아우르며, 
-	철저한 타겟 분석을 바탕으로 성과를 내는 디자인을 지향합니다.
-        </p>
-        <!-- 개인 정보 목록 -->
-        <ul class="about-info">
-          <!-- ✏️ [수정] 각 항목을 본인 정보로 교체 -->
-          <li><span class="info-label">📍 위치</span> 서울, 대한민국</li>
-          <li><span class="info-label">🎓 학력</span> 경복대학교 시각디자인학과</li>
-          <li><span class="info-label">🎓 학력</span> 한국방송통신대학교 미디어영상학과</li>
-          <li><span class="info-label">💼 관심분야</span> 인쇄디자인, 편집디자인, 웹디자인, AI 자동화, 데이터 분석</li>
-          <li><span class="info-label">📧 이메일</span> choiyh040@gmail.com</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- ================================================
-       🗂️ Projects 섹션: 프로젝트 카드들
-       ================================================ -->
-  <section id="projects" class="section section-dark">
-    <h2 class="section-title">Projects</h2>
-    <p class="section-sub">직접 만든 프로젝트들을 소개합니다</p>
-
-    <!-- 카드 그리드: 3열 배치 -->
-    <div class="projects-grid">
-
-      <!-- ─── 프로젝트 카드 1 ─── -->
-      <!-- ✏️ [수정] 이 카드 블록 전체를 복사해서 프로젝트마다 추가하세요 -->
-      <article class="project-card">
-        <!-- 프로젝트 이미지 -->
-        <div class="card-img-wrap">
-          <img
-            src="images/project1.jpg"
-            alt="프로젝트 1 이미지"
-            class="card-img"
-            onerror="this.src='https://placehold.co/400x220/1a1a2e/5c6bc0?text=Project+1'"
-          />
-        </div>
-        <!-- 카드 내용 -->
-        <div class="card-body">
-          <span class="card-tag">Python</span>
-          <span class="card-tag">데이터분석</span>
-          <h3 class="card-title">축제 데이터 분석</h3>
-          <p class="card-desc">
-            공공 API에서 축제 정보를 수집하고 Pandas로 분석한 프로젝트입니다.
-          </p>
-          <!-- ✏️ [수정] href에 GitHub 링크 또는 데모 링크를 넣으세요 -->
-          <a href="#" class="card-link" target="_blank">자세히 보기 →</a>
-        </div>
-      </article>
-
-      <!-- ─── 프로젝트 카드 2 ─── -->
-      <article class="project-card">
-        <div class="card-img-wrap">
-          <img
-            src="images/project2.jpg"
-            alt="프로젝트 2 이미지"
-            class="card-img"
-            onerror="this.src='https://placehold.co/400x220/1a1a2e/5c6bc0?text=Project+2'"
-          />
-        </div>
-        <div class="card-body">
-          <span class="card-tag">n8n</span>
-          <span class="card-tag">AI 자동화</span>
-          <h3 class="card-title">포트폴리오 AI 챗봇</h3>
-          <p class="card-desc">
-            n8n Webhook과 OpenAI를 연동해 포트폴리오를 소개하는 AI 챗봇 구현.
-          </p>
-          <a href="#" class="card-link" target="_blank">자세히 보기 →</a>
-        </div>
-      </article>
-
-      <!-- ─── 프로젝트 카드 3 ─── -->
-      <article class="project-card">
-        <div class="card-img-wrap">
-          <img
-            src="images/project3.jpg"
-            alt="프로젝트 3 이미지"
-            class="card-img"
-            onerror="this.src='https://placehold.co/400x220/1a1a2e/5c6bc0?text=Project+3'"
-          />
-        </div>
-        <div class="card-body">
-          <span class="card-tag">Selenium</span>
-          <span class="card-tag">크롤링</span>
-          <h3 class="card-title">웹 크롤러</h3>
-          <p class="card-desc">
-            Selenium을 활용한 동적 웹 페이지 데이터 수집 자동화 프로젝트.
-          </p>
-          <a href="#" class="card-link" target="_blank">자세히 보기 →</a>
-        </div>
-      </article>
-
-    </div><!-- /projects-grid -->
-  </section>
-
-
-  <!-- ================================================
-       🛠️ Skills 섹션
-       ================================================ -->
-  <section id="skills" class="section">
-    <h2 class="section-title">Skills</h2>
-    <p class="section-sub">현재 보유하고 있는 기술 스택</p>
-
-    <div class="skills-grid">
-
-      <!-- ─── 스킬 카테고리 1 ─── -->
-      <div class="skill-group">
-        <h3 class="skill-group-title">🐍 언어</h3>
-        <!-- ✏️ [수정] 스킬 배지를 원하는 것으로 바꾸거나 추가하세요 -->
-        <div class="skill-badges">
-          <span class="badge">Python</span>
-          <span class="badge">JavaScript</span>
-          <span class="badge">HTML/CSS</span>
-          <span class="badge">SQL</span>
-        </div>
-      </div>
-
-      <!-- ─── 스킬 카테고리 2 ─── -->
-      <div class="skill-group">
-        <h3 class="skill-group-title">🤖 AI / 자동화</h3>
-        <div class="skill-badges">
-          <span class="badge">n8n</span>
-          <span class="badge">OpenAI API</span>
-          <span class="badge">Selenium</span>
-          <span class="badge">Pandas</span>
-        </div>
-      </div>
-
-      <!-- ─── 스킬 카테고리 3 ─── -->
-      <div class="skill-group">
-        <h3 class="skill-group-title">🛠️ 도구</h3>
-        <div class="skill-badges">
-          <span class="badge">Git / GitHub</span>
-          <span class="badge">VS Code</span>
-          <span class="badge">Jupyter</span>
-          <span class="badge">Notion</span>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- ================================================
-       📬 Contact 섹션
-       ================================================ -->
-  <section id="contact" class="section section-dark">
-    <h2 class="section-title">Contact</h2>
-    <p class="section-sub">
-      오른쪽 하단 💬 버튼으로 AI 챗봇에게 바로 질문하거나,<br/>
-      아래 링크로 연락주세요!
-    </p>
-
-    <div class="contact-links">
-      <!-- ✏️ [수정] 각 href를 본인 링크로 교체하세요 -->
-      <a href="mailto:your-email@example.com" class="contact-btn">
-        📧 이메일 보내기
-      </a>
-      <a href="https://github.com/choiyh040-bit" class="contact-btn" target="_blank">
-        🐙 GitHub
-      </a>
-    </div>
-  </section>
-
-
-  <!-- ================================================
-       🔻 Footer
-       ================================================ -->
-  <footer>
-    <p>© 2025 Choi Yonghwan · Made with ❤️ and GitHub Pages</p>
-  </footer>
-
-
-  <!-- ================================================
-       ★★★ n8n AI 챗봇 위젯 ★★★
-
-       [이 챗봇이 동작하는 순서]
-       ① 사용자가 오른쪽 하단 버튼을 클릭해 채팅창을 열어요
-       ② 질문을 입력하면 아래 webhook.url 주소로 전송돼요
-       ③ n8n이 받아서 AI(OpenAI 등)에게 전달해요
-       ④ AI가 생성한 답변을 n8n이 다시 돌려줘요
-       ⑤ 채팅창에 답변이 표시돼요 🎉
-       ================================================ -->
+  
+  <!-- 모달 동작 및 스크롤 부드럽게 스크립트 -->
   <script>
-    // ChatWidgetConfig: 챗봇 위젯의 설정 값을 담는 객체입니다.
-    // 이 변수를 chat-widget.js 스크립트가 읽어서 위젯을 만들어줍니다.
-    window.ChatWidgetConfig = {
-
-      webhook: {
-        // ════════════════════════════════════════════════════
-        // ✏️ [수정 필수!] n8n에서 복사한 Webhook URL을 붙여넣으세요.
-        //
-        // n8n Webhook URL 발급 방법:
-        // 🔴 웹훅 주소 (필수)
-        // 아래 주소를 n8n에서 생성한 Webhook URL로 교체하세요.
-        url: 'http://localhost:5678/webhook/chat'
-      },
-
-      branding: {
-        // 챗봇 로고 이미지 (내 프로필 사진으로 연결)
-        logo: 'https://choiyh040-bit.github.io/portfolio/images/profile.jpg',
-        
-        // 챗봇 이름 (채팅창 상단에 표시)
-        name: 'Portfolio AI',
-
-        // 처음 채팅창을 열었을 때 나오는 환영 메시지
-        welcomeText: '안녕하세요! 포트폴리오에 대해 궁금한 점을 물어보세요 😊',
-
-        // 답변을 생성하는 동안 표시되는 문구
-        responseTimeText: '잠시 후 답변드릴게요...'
-      },
-
-      style: {
-        // 챗봇 버튼 색상 (포트폴리오 테마에 맞춰줬습니다)
-        primaryColor: '#5c6bc0',
-
-        // 버튼 위치: 'right' (오른쪽) 또는 'left' (왼쪽)
-        position: 'right'
-      }
-    };
-  </script>
-
-  <!--
-    chat-widget.js: jsDelivr CDN에서 불러오는 챗봇 UI 라이브러리
-    - 위에 설정한 ChatWidgetConfig를 읽어 채팅 버튼/창을 자동으로 만들어줍니다.
-    - 별도로 설치하거나 다운로드할 필요 없이 이 한 줄로 사용 가능합니다.
-    - 반드시 </body> 바로 위에 위치해야 합니다.
-  -->
-  <script src="https://cdn.jsdelivr.net/gh/juansebsol/n8n-chatbot-template@latest/chat-widget.js"></script>
-
-  <!-- 부드러운 스크롤 및 강제 스크롤 원천 차단 스크립트 -->
-  <script>
-    // 1. 페이지 접속(새로고침) 시 주소창에 #이 남아있으면 강제로 무시하고 맨 위로 고정
-    if (window.location.hash) {
-      // 주소창에서 #contact 같은 꼬리표를 몰래 지워버림 (새로고침 안 함)
-      history.replaceState(null, null, window.location.pathname + window.location.search);
-      // 강제로 맨 위(0,0)로 스크롤
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-      }, 10);
-    }
-
-    // 2. 메뉴 클릭 시 부드럽게 이동 및 주소창에 # 안 남게 완벽 차단
+    // 네비게이션 스무스 스크롤
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
-        e.preventDefault(); // 기본 이동 방지
+        e.preventDefault();
         const targetId = this.getAttribute('href').substring(1);
         if(targetId === "") return;
         const targetElement = document.getElementById(targetId);
@@ -364,6 +293,110 @@
         }
       });
     });
+
+    // 주소창 Hash 차단
+    if (window.location.hash) {
+      history.replaceState(null, null, window.location.pathname + window.location.search);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 10);
+    }
+
+    // 모달 및 단일/다중 이미지 갤러리 로직
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImg");
+    const galleryWrapper = document.getElementById("galleryWrapper");
+    const closeBtn = document.querySelector(".close-modal");
+    
+    // 단일 이미지 (기존 zoomable)
+    document.querySelectorAll(".zoomable").forEach(img => {
+      img.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.style.display = "flex";
+        galleryWrapper.style.display = "none";
+        document.getElementById("modalIframe").style.display = "none";
+        modalImg.style.display = "block";
+        modalImg.src = this.getAttribute('data-detail') || this.src;
+        
+        const customWidth = this.getAttribute('data-width');
+        modalImg.style.width = customWidth ? '100%' : 'auto';
+        modalImg.style.maxWidth = customWidth ? customWidth : '90vw';
+      });
+    });
+
+    // 다중 이미지 (세로 스크롤 갤러리)
+    document.querySelectorAll(".gallery-trigger").forEach(trigger => {
+      trigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.style.display = "flex";
+        modalImg.style.display = "none";
+        document.getElementById("modalIframe").style.display = "none";
+        galleryWrapper.style.display = "flex";
+        galleryWrapper.innerHTML = '';
+        
+        const customWidth = this.getAttribute('data-width');
+        galleryWrapper.style.maxWidth = customWidth ? customWidth : '800px';
+        
+        const images = this.getAttribute('data-gallery').split(',');
+        images.forEach(src => {
+          const newImg = document.createElement('img');
+          newImg.src = src.trim();
+          newImg.style.width = '100%';
+          newImg.style.height = 'auto';
+          newImg.style.display = 'block';
+          galleryWrapper.appendChild(newImg);
+        });
+      });
+    });
+
+    // 외부 사이트/내부 HTML 아이프레임 팝업
+    document.querySelectorAll(".iframe-trigger").forEach(trigger => {
+      trigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.style.display = "flex";
+        modalImg.style.display = "none";
+        galleryWrapper.style.display = "none";
+        const iframe = document.getElementById("modalIframe");
+        iframe.style.display = "block";
+        iframe.src = this.href;
+      });
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = "none";
+      const iframe = document.getElementById("modalIframe");
+      if(iframe) iframe.src = "";
+    });
+
+    modal.addEventListener('click', (e) => {
+      if(e.target === modal || e.target.id === 'modalContentWrapper') {
+        modal.style.display = "none";
+        const iframe = document.getElementById("modalIframe");
+        if(iframe) iframe.src = "";
+      }
+    });
   </script>
+
+  <!-- n8n AI 챗봇 위젯 (임시 숨김 처리) 
+  <script>
+    window.ChatWidgetConfig = {
+      webhook: {
+        url: 'http://localhost:5678/webhook/chat'
+      },
+      branding: {
+        logo: 'https://choiyh040-bit.github.io/portfolio/images/profile.jpg',
+        name: 'Portfolio AI',
+        welcomeText: '안녕하세요! 포트폴리오에 대해 궁금한 점을 물어보세요 😊',
+        responseTimeText: '잠시 후 답변드릴게요...'
+      },
+      style: {
+        primaryColor: '#333333', /* 메인 컬러에 맞춤 */
+        position: 'right'
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/gh/juansebsol/n8n-chatbot-template@latest/chat-widget.js"></script>
+  -->
+
 </body>
 </html>
