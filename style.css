@@ -28,7 +28,7 @@ html, body {
   font-family: 'Pretendard', sans-serif;
   background-color: var(--bg);
   color: var(--main-text);
-  overflow: hidden; /* 전체 페이지 스크롤 차단, scroll-container 안에서만 스크롤되도록 */
+  /* overflow: hidden; 삭제: 일반 스크롤 허용 */
 }
 
 a {
@@ -93,28 +93,23 @@ img {
 
 /* ── 4. 스크롤 스냅 (Full Page) ────────────────────────────── */
 .scroll-container {
-  width: 100vw;
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  width: 100%;
+  /* 스크롤 스냅 및 강제 높이 해제 (마우스 스크롤 부드럽게) */
   scroll-behavior: smooth;
-  /* 스크롤바 숨기기 */
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 .scroll-container::-webkit-scrollbar {
   display: none;
 }
 
 .section-slide {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
-  scroll-snap-align: start;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: var(--nav-height); /* 네비게이션 공간만큼 패딩 */
+  padding-bottom: 50px;
 }
 
 /* 배경 교차 색상 (옵션) */
@@ -314,7 +309,7 @@ img {
     gap: 20px;
   }
   .content-wrapper {
-    aspect-ratio: auto; /* 폰에서는 16:9 해제 */
+    /* 폰에서는 16:9 해제 (더 이상 사용 안함) */
   }
   
   /* 모바일에서 이미지 크기 최적화 (인라인 스타일 오버라이드) */
