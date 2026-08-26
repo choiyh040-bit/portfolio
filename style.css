@@ -141,6 +141,7 @@ img {
   font-size: clamp(1rem, 2vw, 1.5rem);
   color: var(--sub-text);
   font-weight: 400;
+  word-break: keep-all;
 }
 
 /* ABOUT */
