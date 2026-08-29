@@ -148,18 +148,6 @@
               <h3>마이스태프 새싹 은평 3기</h3>
               <p>상세페이지 및 SNS 콘텐츠 디자인</p>
             </div>
-          </div>
-
-          <!-- Work 20 -->
-          <div class="work-item">
-            <a href="#" class="gallery-trigger" data-gallery="images/tiktok.png" data-link="https://www.tiktok.com/@stroller2222?_r=1&_t=ZS-99BM39yJwUK">
-              <img src="images/tiktok.png" alt="개인 틱톡 페이지" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+20'" />
-            </a>
-            <div class="work-info">
-              <h3>개인 틱톡페이지 운영</h3>
-              <p>영상 기획 및 제작</p>
-            </div>
-          </div>
         </div>
 
         <h3 class="category-title">Graphic & Editorial Design</h3>
@@ -377,8 +365,8 @@
     <div id="modalContentWrapper" style="display:flex; flex-direction:column; justify-content:flex-start; align-items:center; width:100%; min-height:100%;">
       <!-- External Link Button -->
       <div id="modalBtnContainer" style="display:none; width:90%; max-width:800px; text-align:right; padding:10px 0; margin-top:20px;">
-        <a id="modalExternalLink" href="#" target="_blank" style="display:inline-block; padding:12px 24px; background:#333; color:#fff; border-radius:30px; font-weight:bold; text-decoration:none; box-shadow:0 4px 10px rgba(0,0,0,0.2); transition:transform 0.2s;">
-          👉 실제 사이트 방문하기
+        <a id="modalExternalLink" href="javascript:void(0)" target="_blank" style="display:inline-block; padding:12px 24px; background:#333; color:#fff; border-radius:30px; font-weight:bold; text-decoration:none; box-shadow:0 4px 10px rgba(0,0,0,0.2); transition:transform 0.2s;">
+          실제 사이트 방문하기
         </a>
       </div>
       <img class="modal-content" id="modalImg" style="display:none;">
@@ -397,7 +385,7 @@
   <!-- 모달 동작 및 스크롤 부드럽게 스크립트 -->
   <script>
     // 네비게이션 스무스 스크롤
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    document.querySelectorAll('.nav-links a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const targetId = this.getAttribute('href').substring(1);
