@@ -223,7 +223,7 @@
           <!-- Work 3 -->
           <div class="work-item">
             <a href="#" class="gallery-trigger" data-gallery="images/kme_conference.jpg, images/kme_mice_wave.jpg, images/kme_open_session.jpg">
-              <img src="images/kme_mice_wave_c.jpg" alt="KME 행사 디자인" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+3'" />
+              <img src="images/kme_mice_wave_c.jpg?v=20260901" alt="KME 행사 디자인" onerror="this.src='https://placehold.co/600x800/cccccc/333333?text=Work+3'" />
             </a>
             <div class="work-info">
               <h3>KME 행사 내 세션 비주얼 디자인</h3>
@@ -412,11 +412,28 @@
     const galleryWrapper = document.getElementById("galleryWrapper");
     const closeBtn = document.querySelector(".close-modal");
     
+    function openModalUI() {
+      modal.style.display = "flex";
+      history.pushState({ modalOpen: true }, "", "#modal");
+    }
+
+    function closeModalUI() {
+      modal.style.display = "none";
+      const iframe = document.getElementById("modalIframe");
+      if(iframe) iframe.src = "";
+    }
+
+    window.addEventListener("popstate", () => {
+      if (location.hash !== "#modal") {
+        closeModalUI();
+      }
+    });
+
     // 단일 이미지 (기존 zoomable)
     document.querySelectorAll(".zoomable").forEach(img => {
       img.addEventListener('click', function(e) {
         e.preventDefault();
-        modal.style.display = "flex";
+        openModalUI();
         
         galleryWrapper.style.display = "none";
         const modalBtnContainer = document.getElementById("modalBtnContainer");
@@ -445,7 +462,7 @@
     document.querySelectorAll(".gallery-trigger").forEach(trigger => {
       trigger.addEventListener('click', function(e) {
         e.preventDefault();
-        modal.style.display = "flex";
+        openModalUI();
         modalImg.style.display = "none";
         document.getElementById("modalIframe").style.display = "none";
         galleryWrapper.style.display = "flex";
@@ -480,7 +497,7 @@
     document.querySelectorAll(".iframe-trigger").forEach(trigger => {
       trigger.addEventListener('click', function(e) {
         e.preventDefault();
-        modal.style.display = "flex";
+        openModalUI();
         modalImg.style.display = "none";
         
         galleryWrapper.style.display = "none";
@@ -496,16 +513,20 @@
     });
 
     closeBtn.addEventListener('click', () => {
-      modal.style.display = "none";
-      const iframe = document.getElementById("modalIframe");
-      if(iframe) iframe.src = "";
+      if (location.hash === "#modal") {
+        history.back();
+      } else {
+        closeModalUI();
+      }
     });
 
     modal.addEventListener('click', (e) => {
       if(e.target === modal || e.target.id === 'modalContentWrapper') {
-        modal.style.display = "none";
-        const iframe = document.getElementById("modalIframe");
-        if(iframe) iframe.src = "";
+        if (location.hash === "#modal") {
+          history.back();
+        } else {
+          closeModalUI();
+        }
       }
     });
   </script>
